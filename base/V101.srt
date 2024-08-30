@@ -1,0 +1,316 @@
+0
+00:00:07,050 --> 00:00:12,271
+After choosing the cloud service model and the cloud type offered by vendors, customers
+
+1
+00:00:12,271 --> 00:00:15,410
+need to plan the infrastructure architecture.
+
+2
+00:00:15,410 --> 00:00:18,400
+The infrastructure layer is the foundation of the cloud.
+
+3
+00:00:18,400 --> 00:00:24,550
+This layer consists of physical resources that are housed in Regions, Zones and Data
+
+4
+00:00:24,550 --> 00:00:25,550
+Centers.
+
+5
+00:00:25,550 --> 00:00:30,100
+A Cloud provider’s IT environment is typically distributed across many Regions around the
+
+6
+00:00:30,100 --> 00:00:31,100
+world.
+
+7
+00:00:31,100 --> 00:00:37,010
+A cloud Region, is a geographic area or location where a Cloud provider’s infrastructure
+
+8
+00:00:37,010 --> 00:00:42,489
+is clustered, and may have names like NA South or US East.
+
+9
+00:00:42,489 --> 00:00:48,190
+The cloud Regions are isolated from each other so that if one Region was impacted by a natural
+
+10
+00:00:48,190 --> 00:00:53,690
+disaster like an Earthquake, the Cloud operations in other Regions would keep running.
+
+11
+00:00:53,690 --> 00:01:00,520
+Each Cloud Region can have multiple Zones (or Availability Zones or AZ for short), which
+
+12
+00:01:00,520 --> 00:01:06,770
+are typically distinct Data Centers with their own power, cooling and networking resources.
+
+13
+00:01:06,770 --> 00:01:11,680
+These Zones can have names like DAL-09 or us-east-1.
+
+14
+00:01:11,680 --> 00:01:18,480
+The isolation of zones improves the cloud’s overall fault tolerance, decreases latency,
+
+15
+00:01:18,480 --> 00:01:22,330
+and avoids creating a single shared point of failure.
+
+16
+00:01:22,330 --> 00:01:29,310
+The Availability Zones (and DataCenters within them) are connected to other AZs and regions,
+
+17
+00:01:29,310 --> 00:01:34,860
+private datacenters and the Internet using very high bandwidth network connectivity.
+
+18
+00:01:34,860 --> 00:01:40,940
+A cloud Data center is a huge room or a warehouse containing cloud infrastructure.
+
+19
+00:01:40,940 --> 00:01:47,310
+These data centers contain pods and racks or standardized containers of computing resources
+
+20
+00:01:47,310 --> 00:01:53,760
+such as servers, as well as storage, and networking equipment - virtually everything that a physical
+
+21
+00:01:53,760 --> 00:01:56,430
+IT environment has.
+
+22
+00:01:56,430 --> 00:02:00,590
+Computing Resources: Cloud providers offer several compute options
+
+23
+00:02:00,590 --> 00:02:06,490
+– Virtual Servers, Bare Metal Servers, and “Serverless” computing resources.
+
+24
+00:02:06,490 --> 00:02:11,700
+Most of the servers in a cloud datacenter run hypervisors to create virtual servers
+
+25
+00:02:11,700 --> 00:02:18,800
+or virtual machines (also called VMs for short), that are software-based computers, based on
+
+26
+00:02:18,800 --> 00:02:21,030
+virtualization technologies.
+
+27
+00:02:21,030 --> 00:02:26,690
+Other servers in the racks are bare metal servers that are physical servers that aren’t
+
+28
+00:02:26,690 --> 00:02:27,780
+virtualized.
+
+29
+00:02:27,780 --> 00:02:33,010
+Customers can provision VMs and Bare Metals servers as and when they need them and run
+
+30
+00:02:33,010 --> 00:02:34,590
+their workloads on them.
+
+31
+00:02:34,590 --> 00:02:39,530
+Cloud users can also run their workloads on serverless computing resources, which are
+
+32
+00:02:39,530 --> 00:02:43,140
+an abstraction layer on top of virtual machines.
+
+33
+00:02:43,140 --> 00:02:48,790
+We will talk about all three compute options in greater detail in subsequent videos.
+
+34
+00:02:48,790 --> 00:02:52,660
+Storage: Information and data can consist of files,
+
+35
+00:02:52,660 --> 00:02:59,250
+code, documents, images, videos, backups, snapshots, and databases and can be stored
+
+36
+00:02:59,250 --> 00:03:02,540
+in many different types of storage options on the Cloud.
+
+37
+00:03:02,540 --> 00:03:07,510
+Bare Metal Servers and Virtual Servers are provisioned with default storage in local
+
+38
+00:03:07,510 --> 00:03:08,569
+drives.
+
+39
+00:03:08,569 --> 00:03:13,490
+Since these cloud servers can be provisioned and decommissioned by customers on demand
+
+40
+00:03:13,490 --> 00:03:19,690
+and freed up for use by other users, any information stored in a local drive can be lost when you
+
+41
+00:03:19,690 --> 00:03:22,700
+delete or decommission a cloud server.
+
+42
+00:03:22,700 --> 00:03:27,940
+However there are other storage options available on the cloud to persist data that you can
+
+43
+00:03:27,940 --> 00:03:33,310
+choose depending on factors like how important your data is, how quickly you want to be able
+
+44
+00:03:33,310 --> 00:03:38,810
+to access it, how often you access it, and how secure you need it to be.
+
+45
+00:03:38,810 --> 00:03:44,900
+These additional storage options include Block storage, File storage, and Object storage.
+
+46
+00:03:44,900 --> 00:03:50,650
+Block and file storage modes are commonly used in traditional data centers, but “often
+
+47
+00:03:50,650 --> 00:03:55,190
+struggle with scale, performance and distributed characteristics of cloud.”
+
+48
+00:03:55,190 --> 00:04:00,520
+Object storage is the most common mode of storage in the cloud as it’s both highly
+
+49
+00:04:00,520 --> 00:04:02,989
+distributed and resilient.
+
+50
+00:04:02,989 --> 00:04:09,170
+We will examine Object Storage and the other storage options in more detail in later videos.
+
+51
+00:04:09,170 --> 00:04:12,989
+Networking: Networking infrastructure in a cloud datacenter
+
+52
+00:04:12,989 --> 00:04:18,930
+includes traditional networking hardware like routers and switches, but more importantly
+
+53
+00:04:18,930 --> 00:04:25,680
+for users of the Cloud, the Cloud providers have Software Defined Networking (or SDN)
+
+54
+00:04:25,680 --> 00:04:31,969
+options where certain networking resources are virtualized or made available programmatically,
+
+55
+00:04:31,969 --> 00:04:33,059
+through APIs.
+
+56
+00:04:33,059 --> 00:04:39,550
+This allows for easier network provisioning, configuration, and management in the cloud.
+
+57
+00:04:39,550 --> 00:04:44,039
+When servers in the cloud are provisioned, you need to setup their public and private
+
+58
+00:04:44,039 --> 00:04:45,620
+network interfaces.
+
+59
+00:04:45,620 --> 00:04:50,949
+The public network interfaces, as the name suggests, connect the servers to the public
+
+60
+00:04:50,949 --> 00:04:56,129
+internet, whereas the private ones provide connectivity to your other cloud resources
+
+61
+00:04:56,129 --> 00:04:57,949
+and help keep them secure.
+
+62
+00:04:57,949 --> 00:05:04,419
+As in the physical IT world, network interfaces in the cloud need to have IP addresses and
+
+63
+00:05:04,419 --> 00:05:08,310
+subnets either assigned automatically or configured.
+
+64
+00:05:08,310 --> 00:05:14,259
+In a cloud environment it is even more important to configure which network traffic and users
+
+65
+00:05:14,259 --> 00:05:19,849
+can access your resources, which can be done by setting up Security Groups and Access Control
+
+66
+00:05:19,849 --> 00:05:22,249
+Lists (or ACLs).
+
+67
+00:05:22,249 --> 00:05:26,970
+For further security and isolation of your resources in the cloud, most Cloud providers
+
+68
+00:05:26,970 --> 00:05:34,401
+provide Virtual Local Area Networks (VLANs), Virtual Private Clouds (VPCs), and Virtual
+
+69
+00:05:34,401 --> 00:05:37,099
+Private Networks (VPNs).
+
+70
+00:05:37,099 --> 00:05:43,120
+Some of the traditional hardware appliances such as firewalls, load balancers, gateways
+
+71
+00:05:43,120 --> 00:05:49,080
+and traffic analyzers can also be virtualized and made available as services in the cloud.
+
+72
+00:05:49,080 --> 00:05:54,589
+Another networking capability provided by the Cloud Providers is Content Delivery Networks
+
+73
+00:05:54,589 --> 00:06:00,770
+or CDNs, that distribute content to multiple points throughout the world so users accessing
+
+74
+00:06:00,770 --> 00:06:05,869
+the content can access it more quickly by getting it from a point nearest to them.
+
+75
+00:06:05,869 --> 00:06:11,029
+We will learn more about some of these cloud networking options and terminology in subsequent
+
+76
+00:06:11,029 --> 00:06:12,029
+videos.
+
+77
+00:06:12,029 --> 00:06:15,740
+Cloud infrastructure is constantly advancing and improving.
+
+78
+00:06:15,740 --> 00:06:28,610
+In the next video, we explain virtualization and virtual machines.
+

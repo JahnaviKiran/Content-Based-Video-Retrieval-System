@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Query</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style4.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse" style="background-color: rgb(72, 69, 77);">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/indexlogin"><img class="logoclass" width="40px" padding="3px" src="static/images/logo1.jpg" alt=""></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right" style="background-color:  rgb(72, 69, 77);">
+                <li><a href="/indexlogin"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="/search"><span class="glyphicon glyphicon-th-large"></span> Content</a></li>
+                <li><a href="/"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div id="Search">
+            <form class="form-inline" action="/search" method="post">
+                <input type="text" class="form-control" style="width: 80%;" id="query" name="query" placeholder="Enter query">
+                <input type="submit" class="btn btn-success" value="Search">
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

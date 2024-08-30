@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbmGHMyn67TJuj2CtuDUC2BGvyBE7NGk9pDfV9fIdXmQ&usqp=CAU&ec=48665698');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #Search{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        padding: 200px 0;
+    }
+    input[type='text']{
+        padding: 25px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.50);
+        border-color: rgba(0, 0, 0, 0.50);
+    }
+    input[type='submit']{
+        padding: 15px;
+    }
+    input[type='text']::placeholder{
+        color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/home"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+ 
+    <div id="Search">
+        <form class="form-inline" action="/search" method="post">
+            <input type="text" class="form-control" style="width: 80%;" id="query" name="query" placeholder="Enter query">
+          <input type="submit" class="btn btn-success" value="Search">
+        </form>
+
+    </div>
+  
+</div>
+
+</body>
+</html>

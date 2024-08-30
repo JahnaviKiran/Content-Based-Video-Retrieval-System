@@ -1,0 +1,776 @@
+1
+00:00:10,860 --> 00:00:13,320
+we hear a lot about how artificial
+
+2
+00:00:13,320 --> 00:00:15,120
+intelligence and machine learning are
+
+3
+00:00:15,120 --> 00:00:17,160
+going to change the world and how the
+
+4
+00:00:17,160 --> 00:00:18,960
+internet of things will make everyone's
+
+5
+00:00:18,960 --> 00:00:21,240
+life easier but what's the one thing
+
+6
+00:00:21,240 --> 00:00:22,920
+that underpins all of these
+
+7
+00:00:22,920 --> 00:00:25,380
+revolutionary Technologies the answer is
+
+8
+00:00:25,380 --> 00:00:27,900
+data from social media to the iot
+
+9
+00:00:27,900 --> 00:00:30,240
+devices we're generating immeasurable
+
+10
+00:00:30,240 --> 00:00:32,700
+amount of data consider the cab service
+
+11
+00:00:32,700 --> 00:00:35,040
+provider Uber I'm sure all of you have
+
+12
+00:00:35,040 --> 00:00:38,160
+used Uber what do you think makes Uber a
+
+13
+00:00:38,160 --> 00:00:40,860
+multi-billion dollar worth company is it
+
+14
+00:00:40,860 --> 00:00:43,260
+that availability of cabs or is it their
+
+15
+00:00:43,260 --> 00:00:46,620
+service well the answer is data data
+
+16
+00:00:46,620 --> 00:00:49,800
+makes them very rich but wait is data
+
+17
+00:00:49,800 --> 00:00:52,559
+enough to grow a business of course it
+
+18
+00:00:52,559 --> 00:00:54,780
+isn't you must know how to use the data
+
+19
+00:00:54,780 --> 00:00:56,699
+to draw useful insights and solve
+
+20
+00:00:56,699 --> 00:00:58,800
+problems this is where data science
+
+21
+00:00:58,800 --> 00:01:01,500
+comes in in simple words data science is
+
+22
+00:01:01,500 --> 00:01:03,480
+the process of using data to find
+
+23
+00:01:03,480 --> 00:01:05,939
+Solutions or to predict out comes for a
+
+24
+00:01:05,939 --> 00:01:07,920
+problem statement to better understand
+
+25
+00:01:07,920 --> 00:01:10,439
+data science let's see how it affects
+
+26
+00:01:10,439 --> 00:01:12,840
+our day-to-day activities it's a Monday
+
+27
+00:01:12,840 --> 00:01:14,460
+morning and I have to get to office
+
+28
+00:01:14,460 --> 00:01:16,860
+before my meeting starts so I quickly
+
+29
+00:01:16,860 --> 00:01:18,960
+open up Uber and look for cabs but
+
+30
+00:01:18,960 --> 00:01:21,420
+there's something unusual the cab rates
+
+31
+00:01:21,420 --> 00:01:23,700
+are comparatively higher at this hour of
+
+32
+00:01:23,700 --> 00:01:25,860
+the day why does this happen well
+
+33
+00:01:25,860 --> 00:01:27,840
+obviously because Monday mornings are
+
+34
+00:01:27,840 --> 00:01:29,880
+peak hours and everyone is rushing off
+
+35
+00:01:29,880 --> 00:01:32,460
+to work the high demand for cabs leads
+
+36
+00:01:32,460 --> 00:01:35,100
+to increase in the cab fares we all know
+
+37
+00:01:35,100 --> 00:01:37,259
+this but how is all of this implemented
+
+38
+00:01:37,259 --> 00:01:39,960
+data science is at the heart of Uber's
+
+39
+00:01:39,960 --> 00:01:42,240
+pricing algorithm The Surge pricing
+
+40
+00:01:42,240 --> 00:01:44,400
+algorithm ensures that their passengers
+
+41
+00:01:44,400 --> 00:01:46,439
+always get a ride when they need one
+
+42
+00:01:46,439 --> 00:01:49,020
+even if it comes at the cost of inflated
+
+43
+00:01:49,020 --> 00:01:51,840
+prices Uber implements data science to
+
+44
+00:01:51,840 --> 00:01:53,640
+find out which neighborhoods will be the
+
+45
+00:01:53,640 --> 00:01:55,860
+busiest so that it can activate search
+
+46
+00:01:55,860 --> 00:01:58,020
+pricing to get more drivers on the road
+
+47
+00:01:58,020 --> 00:02:00,659
+in this manner Uber maximizes the number
+
+48
+00:02:00,659 --> 00:02:02,640
+of rides it can provide and hence
+
+49
+00:02:02,640 --> 00:02:04,979
+benefit from this Uber search pricing
+
+50
+00:02:04,979 --> 00:02:07,979
+algorithm uses data science let's see
+
+51
+00:02:07,979 --> 00:02:10,860
+how a data science process always begins
+
+52
+00:02:10,860 --> 00:02:12,060
+with understanding the business
+
+53
+00:02:12,060 --> 00:02:14,099
+requirement or the problem you're trying
+
+54
+00:02:14,099 --> 00:02:16,020
+to solve in this case the business
+
+55
+00:02:16,020 --> 00:02:18,239
+requirement is to build a dynamic
+
+56
+00:02:18,239 --> 00:02:20,760
+pricing model that takes effect when a
+
+57
+00:02:20,760 --> 00:02:22,860
+lot of people in the same area are
+
+58
+00:02:22,860 --> 00:02:25,440
+requesting rides at the same time this
+
+59
+00:02:25,440 --> 00:02:27,959
+is followed by data collection Uber
+
+60
+00:02:27,959 --> 00:02:29,520
+collects data such as the weather
+
+61
+00:02:29,520 --> 00:02:32,940
+historical data holidays time traffic
+
+62
+00:02:32,940 --> 00:02:35,879
+pickup and drop location and it keeps a
+
+63
+00:02:35,879 --> 00:02:38,220
+track of all of this the next stage is
+
+64
+00:02:38,220 --> 00:02:40,980
+data cleaning well sometimes unnecessary
+
+65
+00:02:40,980 --> 00:02:43,200
+data is collected such data only
+
+66
+00:02:43,200 --> 00:02:45,180
+increases the complexity of the problem
+
+67
+00:02:45,180 --> 00:02:47,819
+an example is Uber might collect
+
+68
+00:02:47,819 --> 00:02:49,620
+information like the location of
+
+69
+00:02:49,620 --> 00:02:52,019
+restaurants and cafes nearby now such
+
+70
+00:02:52,019 --> 00:02:54,300
+data is not needed to analyze Uber
+
+71
+00:02:54,300 --> 00:02:56,640
+search pricing therefore such data has
+
+72
+00:02:56,640 --> 00:02:59,220
+to be removed at this step data cleaning
+
+73
+00:02:59,220 --> 00:03:01,319
+is followed by data exploration and
+
+74
+00:03:01,319 --> 00:03:04,319
+Analysis the data exploration stage is
+
+75
+00:03:04,319 --> 00:03:06,720
+like the brain storming of data analysis
+
+76
+00:03:06,720 --> 00:03:08,700
+this is where you understand the
+
+77
+00:03:08,700 --> 00:03:11,220
+patterns in your data this is followed
+
+78
+00:03:11,220 --> 00:03:13,860
+by data modeling the data modeling stage
+
+79
+00:03:13,860 --> 00:03:15,780
+basically includes building a machine
+
+80
+00:03:15,780 --> 00:03:18,000
+learning model that predicts the Uber
+
+81
+00:03:18,000 --> 00:03:20,760
+search at a given time and location this
+
+82
+00:03:20,760 --> 00:03:23,099
+model is built by using all the insights
+
+83
+00:03:23,099 --> 00:03:25,080
+and Trends collected in the exploration
+
+84
+00:03:25,080 --> 00:03:27,780
+stage the model is trained by feeding a
+
+85
+00:03:27,780 --> 00:03:30,000
+thousands of customer records so that it
+
+86
+00:03:30,000 --> 00:03:31,920
+can learn to predict the outcome more
+
+87
+00:03:31,920 --> 00:03:34,560
+precisely next is the data validation
+
+88
+00:03:34,560 --> 00:03:37,260
+stage now here the model is tested when
+
+89
+00:03:37,260 --> 00:03:39,840
+a new customer books a ride the data of
+
+90
+00:03:39,840 --> 00:03:41,519
+the new booking is compared with the
+
+91
+00:03:41,519 --> 00:03:43,799
+historic data in order to check if there
+
+92
+00:03:43,799 --> 00:03:45,599
+are any anomalies in the search prices
+
+93
+00:03:45,599 --> 00:03:48,599
+or any false predictions if any such
+
+94
+00:03:48,599 --> 00:03:51,420
+anomalies are detected a notification is
+
+95
+00:03:51,420 --> 00:03:53,340
+immediately sent to the data scientists
+
+96
+00:03:53,340 --> 00:03:55,980
+at Uber who fix the issue this is how
+
+97
+00:03:55,980 --> 00:03:57,659
+Uber predicts the search price for a
+
+98
+00:03:57,659 --> 00:04:00,060
+given location and time the final stage
+
+99
+00:04:00,060 --> 00:04:01,980
+of data science is deployment and
+
+100
+00:04:01,980 --> 00:04:04,560
+optimization so after testing the model
+
+101
+00:04:04,560 --> 00:04:06,840
+and improving its efficiency it is
+
+102
+00:04:06,840 --> 00:04:09,420
+deployed on all the users at this stage
+
+103
+00:04:09,420 --> 00:04:11,640
+customer feed back is received and if
+
+104
+00:04:11,640 --> 00:04:13,379
+there are any issues they are fixed here
+
+105
+00:04:13,379 --> 00:04:15,720
+so that was the entire data science
+
+106
+00:04:15,720 --> 00:04:18,180
+process now let's look at a few other
+
+107
+00:04:18,180 --> 00:04:20,639
+applications of data science data
+
+108
+00:04:20,639 --> 00:04:22,680
+science is implemented in e-commerce
+
+109
+00:04:22,680 --> 00:04:25,500
+platforms like Amazon and Flipkart it is
+
+110
+00:04:25,500 --> 00:04:27,419
+also the logic behind Netflix's
+
+111
+00:04:27,419 --> 00:04:29,880
+recommendation system now when all
+
+112
+00:04:29,880 --> 00:04:32,040
+actuality data science has made
+
+113
+00:04:32,040 --> 00:04:35,160
+remarkable changes in today's market its
+
+114
+00:04:35,160 --> 00:04:36,900
+applications range from credit card
+
+115
+00:04:36,900 --> 00:04:39,479
+fraud detection to self-driving cars and
+
+116
+00:04:39,479 --> 00:04:41,639
+virtual assistants such as Siri and
+
+117
+00:04:41,639 --> 00:04:45,060
+Alexa let's consider an example suppose
+
+118
+00:04:45,060 --> 00:04:47,580
+you look for shoes on Amazon but you do
+
+119
+00:04:47,580 --> 00:04:49,680
+not buy it then and there now the next
+
+120
+00:04:49,680 --> 00:04:51,419
+day you're watching videos on YouTube
+
+121
+00:04:51,419 --> 00:04:53,880
+and suddenly you see an ad for the same
+
+122
+00:04:53,880 --> 00:04:56,759
+item you switch to Facebook there also
+
+123
+00:04:56,759 --> 00:04:59,100
+you see the same ad so how does this
+
+124
+00:04:59,100 --> 00:05:01,380
+happen well this happens because Google
+
+125
+00:05:01,380 --> 00:05:03,300
+Tracks your search history and
+
+126
+00:05:03,300 --> 00:05:05,280
+recommends ads based on your search
+
+127
+00:05:05,280 --> 00:05:07,320
+history this is one of the coolest
+
+128
+00:05:07,320 --> 00:05:09,960
+applications of data science in fact 35
+
+129
+00:05:09,960 --> 00:05:12,479
+five percent of Amazon's revenue is
+
+130
+00:05:12,479 --> 00:05:15,000
+generated by product recommendation and
+
+131
+00:05:15,000 --> 00:05:16,800
+the logic behind product recommendation
+
+132
+00:05:16,800 --> 00:05:19,320
+is data science let me tell you another
+
+133
+00:05:19,320 --> 00:05:22,440
+such story Scott Killen never imagined
+
+134
+00:05:22,440 --> 00:05:25,020
+his Apple watch might save his life but
+
+135
+00:05:25,020 --> 00:05:27,120
+that's exactly what happened a few
+
+136
+00:05:27,120 --> 00:05:29,160
+months ago when he had a heart attack in
+
+137
+00:05:29,160 --> 00:05:31,259
+the middle of the night but how could a
+
+138
+00:05:31,259 --> 00:05:33,900
+watch detect a heart attack any guesses
+
+139
+00:05:33,900 --> 00:05:36,840
+well it's data science again Apple used
+
+140
+00:05:36,840 --> 00:05:38,880
+data science to build a watch that
+
+141
+00:05:38,880 --> 00:05:41,400
+monitors an individual's Health this
+
+142
+00:05:41,400 --> 00:05:43,860
+watch collects data such as the person's
+
+143
+00:05:43,860 --> 00:05:46,139
+heart rate sleep cycle breathing rate
+
+144
+00:05:46,139 --> 00:05:49,320
+activity level blood pressure Etc and
+
+145
+00:05:49,320 --> 00:05:51,720
+keeps a record of these measures 24 bar
+
+146
+00:05:51,720 --> 00:05:54,780
+7. this collected data is then processed
+
+147
+00:05:54,780 --> 00:05:56,759
+and analyzed to build a model that
+
+148
+00:05:56,759 --> 00:05:59,039
+predicts the risk of a heart attack so
+
+149
+00:05:59,039 --> 00:06:01,680
+these were a few applications now the
+
+150
+00:06:01,680 --> 00:06:04,020
+question is how and why you should
+
+151
+00:06:04,020 --> 00:06:06,600
+become a data scientist according to
+
+152
+00:06:06,600 --> 00:06:09,720
+linkedin's March 2019 survey a data
+
+153
+00:06:09,720 --> 00:06:11,880
+science scientist is the most promising
+
+154
+00:06:11,880 --> 00:06:14,520
+job role in the US and it stands at
+
+155
+00:06:14,520 --> 00:06:16,979
+number one on glassdoor's best jobs of
+
+156
+00:06:16,979 --> 00:06:19,800
+2019. here are a couple of job trends
+
+157
+00:06:19,800 --> 00:06:21,720
+that I collected from LinkedIn top
+
+158
+00:06:21,720 --> 00:06:24,120
+companies like Microsoft IBM Facebook
+
+159
+00:06:24,120 --> 00:06:26,699
+and Google have over thousand job
+
+160
+00:06:26,699 --> 00:06:29,160
+vacancies and this number is only going
+
+161
+00:06:29,160 --> 00:06:31,919
+to grow similarly these job Trends show
+
+162
+00:06:31,919 --> 00:06:33,900
+the vacancy of jobs with respect to
+
+163
+00:06:33,900 --> 00:06:36,780
+geography coming to the salary of a data
+
+164
+00:06:36,780 --> 00:06:38,880
+scientist the average salary ranges
+
+165
+00:06:38,880 --> 00:06:40,979
+between a hundred thousand dollars to
+
+166
+00:06:40,979 --> 00:06:42,900
+hundred and eighty two thousand dollars
+
+167
+00:06:42,900 --> 00:06:45,840
+now remember that your salary varies on
+
+168
+00:06:45,840 --> 00:06:47,759
+your skills your level of experience
+
+169
+00:06:47,759 --> 00:06:49,680
+your geography and the company you're
+
+170
+00:06:49,680 --> 00:06:51,960
+working for here are the skills that are
+
+171
+00:06:51,960 --> 00:06:54,479
+needed to become a data scientist you
+
+172
+00:06:54,479 --> 00:06:57,060
+must be skilled in statistics expertise
+
+173
+00:06:57,060 --> 00:06:59,220
+in programming languages like R and
+
+174
+00:06:59,220 --> 00:07:01,919
+python is a must you're required to have
+
+175
+00:07:01,919 --> 00:07:03,960
+a good understanding of processes like
+
+176
+00:07:03,960 --> 00:07:06,539
+data extraction processing wrangling and
+
+177
+00:07:06,539 --> 00:07:09,060
+exploration you must also be well versed
+
+178
+00:07:09,060 --> 00:07:10,380
+with the different types of machine
+
+179
+00:07:10,380 --> 00:07:12,560
+learning algorithms and how they work
+
+180
+00:07:12,560 --> 00:07:14,819
+Advanced machine learning Concepts like
+
+181
+00:07:14,819 --> 00:07:17,220
+deep learning is also needed you must
+
+182
+00:07:17,220 --> 00:07:19,440
+also possess a good understanding of the
+
+183
+00:07:19,440 --> 00:07:21,419
+different big data processing Frameworks
+
+184
+00:07:21,419 --> 00:07:24,000
+like Hadoop and Spark and finally you
+
+185
+00:07:24,000 --> 00:07:25,979
+must know how to visualize the data by
+
+186
+00:07:25,979 --> 00:07:28,259
+using tools like Tableau and power bi
+
+187
+00:07:28,259 --> 00:07:30,539
+now that you know what it takes to
+
+188
+00:07:30,539 --> 00:07:33,000
+become a data scientist it's time to
+
+189
+00:07:33,000 --> 00:07:35,099
+buckle up and kick start your career as
+
+190
+00:07:35,099 --> 00:07:37,620
+a data scientist that's all from my side
+
+191
+00:07:37,620 --> 00:07:39,720
+guys if you wish to learn more about
+
+192
+00:07:39,720 --> 00:07:42,120
+such trending Technologies make sure you
+
+193
+00:07:42,120 --> 00:07:44,580
+subscribe to our Channel until next time
+
+194
+00:07:44,580 --> 00:07:47,539
+happy learning
+

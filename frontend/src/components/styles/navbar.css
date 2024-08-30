@@ -1,0 +1,50 @@
+nav {
+    background: #ffffff;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 4px #ddd;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+
+nav .icon {
+    font-size: 22px;
+    padding: 5px 0px;
+}
+
+nav .icon a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+nav .icon img{
+    width: 70px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .btns div {
+    padding: 10px;
+    margin: 0 10px;
+    background: #00000011;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    padding: 10px;
+}
+
+nav .btns div:hover {
+    background: #00000022;
+}

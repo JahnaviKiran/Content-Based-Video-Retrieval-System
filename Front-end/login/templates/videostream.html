@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Video Platform</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        video {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/indexlogin"><img class="logoclass" width="40px" padding="3px" src="static/images/logo1.jpg" alt=""></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/query"><span class="glyphicon glyphicon-search"></span> Query</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <form class="form-inline" action="/search" method="post">
+                    <input type="text" class="form-control" style="width: 90%;" id="query" name="query" placeholder="Enter query">
+                    <input type="submit" class="btn btn-success" value="Search">
+                </form>
+                <br><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <video controls autoplay>
+    <source src="http://127.0.0.1:5000/static/ppp.mp4" type="video/mp4">
+   
+    </video>
+                <input type="text" style="width: 90%; margin: 15px; padding: 10px;" id="answer" name="answer" placeholder="Answer will be displayed here">
+            </div>
+            <div class="col-lg-4">
+                <p>Related Videos</p>
+                <video>
+    <source src="http://127.0.0.1:5000/static/bgs.mp4" type="video/mp4">
+    </video>
+                <video>
+    <source src="http://127.0.0.1:5000/static/bgs.mp4" type="video/mp4">
+    </video>
+                <video>
+    <source src="http://127.0.0.1:5000/static/bgs.mp4" type="video/mp4">
+    </video>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

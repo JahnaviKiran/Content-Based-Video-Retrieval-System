@@ -1,0 +1,852 @@
+1
+00:00:10,860 --> 00:00:13,139
+good afternoon good evening everyone I
+
+2
+00:00:13,139 --> 00:00:14,639
+hope that all of you are doing well and
+
+3
+00:00:14,639 --> 00:00:16,859
+doing great first of all thanks for
+
+4
+00:00:16,859 --> 00:00:18,720
+taking all the time before we start with
+
+5
+00:00:18,720 --> 00:00:20,699
+anything let me introduce myself my name
+
+6
+00:00:20,699 --> 00:00:21,560
+is
+
+7
+00:00:21,560 --> 00:00:23,820
+years of experience in the same field
+
+8
+00:00:23,820 --> 00:00:26,580
+and uh without wasting any time let's
+
+9
+00:00:26,580 --> 00:00:28,380
+just get started and let's take a look
+
+10
+00:00:28,380 --> 00:00:31,140
+at the today's agenda so today's agenda
+
+11
+00:00:31,140 --> 00:00:34,800
+is what is Big Data what is AWS and big
+
+12
+00:00:34,800 --> 00:00:37,920
+data in AWS how AWS generally can solve
+
+13
+00:00:37,920 --> 00:00:42,899
+the Big Data challenges now moving on
+
+14
+00:00:42,899 --> 00:00:47,460
+now talking about what is Big Data
+
+15
+00:00:47,460 --> 00:00:50,579
+so big data is a term for collection of
+
+16
+00:00:50,579 --> 00:00:53,520
+data sets so large and complex that it
+
+17
+00:00:53,520 --> 00:00:55,800
+becomes difficult to process using on
+
+18
+00:00:55,800 --> 00:00:58,379
+and database system tools or traditional
+
+19
+00:00:58,379 --> 00:01:01,440
+data processing applications now we have
+
+20
+00:01:01,440 --> 00:01:04,260
+five V's of Big Data first is
+
+21
+00:01:04,260 --> 00:01:07,380
+volume because like by 2020 accumulated
+
+22
+00:01:07,380 --> 00:01:10,520
+data Universe of data will grow from 4.4
+
+23
+00:01:10,520 --> 00:01:14,460
+zettabytes to uh to around 44 zettabytes
+
+24
+00:01:14,460 --> 00:01:17,580
+or or 44 trillion gigabytes because our
+
+25
+00:01:17,580 --> 00:01:19,619
+data is increasing and since we are
+
+26
+00:01:19,619 --> 00:01:22,200
+storing a lot of data and since we are
+
+27
+00:01:22,200 --> 00:01:24,119
+upgrading operating system the files is
+
+28
+00:01:24,119 --> 00:01:26,040
+changing in getting a huge requirement
+
+29
+00:01:26,040 --> 00:01:28,580
+right now the next Vector is variety
+
+30
+00:01:28,580 --> 00:01:31,380
+basically we have different kind of data
+
+31
+00:01:31,380 --> 00:01:32,640
+which is being generated from different
+
+32
+00:01:32,640 --> 00:01:34,320
+sources like you can see we have
+
+33
+00:01:34,320 --> 00:01:35,700
+structured data relational
+
+34
+00:01:35,700 --> 00:01:37,740
+semi-structured unstructured we have so
+
+35
+00:01:37,740 --> 00:01:39,960
+many types of different data so we have
+
+36
+00:01:39,960 --> 00:01:41,520
+a big requirement we have where we have
+
+37
+00:01:41,520 --> 00:01:43,079
+different type of data as per the
+
+38
+00:01:43,079 --> 00:01:44,460
+different use cases and we have to
+
+39
+00:01:44,460 --> 00:01:46,500
+accumulate and we have to work on that
+
+40
+00:01:46,500 --> 00:01:50,579
+data next is velocity so what is it
+
+41
+00:01:50,579 --> 00:01:52,619
+basically it means that like we require
+
+42
+00:01:52,619 --> 00:01:54,479
+there are some special cases of data
+
+43
+00:01:54,479 --> 00:01:56,100
+that we need in real time like we can't
+
+44
+00:01:56,100 --> 00:01:57,720
+even expect a delay of that single
+
+45
+00:01:57,720 --> 00:01:59,700
+second so like for example in every 60
+
+46
+00:01:59,700 --> 00:02:01,860
+seconds we have more than 100 000 plus
+
+47
+00:02:01,860 --> 00:02:04,560
+tweets which is getting available in
+
+48
+00:02:04,560 --> 00:02:07,320
+every 60 seconds we have 1800 TB of data
+
+49
+00:02:07,320 --> 00:02:09,060
+which is being stored so we need them
+
+50
+00:02:09,060 --> 00:02:11,220
+need a solution which can be very fast
+
+51
+00:02:11,220 --> 00:02:12,780
+like the moment you're going to hit that
+
+52
+00:02:12,780 --> 00:02:14,459
+data is stored updated and the result is
+
+53
+00:02:14,459 --> 00:02:16,080
+being presented to you so we need a
+
+54
+00:02:16,080 --> 00:02:18,360
+basically a very super fast way that's
+
+55
+00:02:18,360 --> 00:02:20,819
+something we manage uh here with the
+
+56
+00:02:20,819 --> 00:02:23,459
+help of velocity next is basically value
+
+57
+00:02:23,459 --> 00:02:25,620
+which is the way to bring the correct
+
+58
+00:02:25,620 --> 00:02:27,720
+meaning out of a data because uh your
+
+59
+00:02:27,720 --> 00:02:29,160
+Computing the standard language is zero
+
+60
+00:02:29,160 --> 00:02:30,720
+and one like we are I'm communicating
+
+61
+00:02:30,720 --> 00:02:31,800
+with you in English you are
+
+62
+00:02:31,800 --> 00:02:33,420
+understanding that language but if I
+
+63
+00:02:33,420 --> 00:02:35,280
+talk about your computer system it
+
+64
+00:02:35,280 --> 00:02:36,900
+understands the language of zero and one
+
+65
+00:02:36,900 --> 00:02:39,180
+so we need to have our values that your
+
+66
+00:02:39,180 --> 00:02:40,860
+computer can understand effectively it
+
+67
+00:02:40,860 --> 00:02:43,440
+is not requiring um so many translators
+
+68
+00:02:43,440 --> 00:02:45,360
+so many processes to process it should
+
+69
+00:02:45,360 --> 00:02:48,480
+be fast enough and last is velocity so
+
+70
+00:02:48,480 --> 00:02:50,580
+which basically says uncertainty and
+
+71
+00:02:50,580 --> 00:02:52,379
+inconsistency in the data like you can
+
+72
+00:02:52,379 --> 00:02:54,360
+see in the form of question mark it
+
+73
+00:02:54,360 --> 00:02:56,099
+needs to be corrected and it needs to be
+
+74
+00:02:56,099 --> 00:03:00,660
+removed now what is AWS AWS stands for
+
+75
+00:03:00,660 --> 00:03:04,920
+Amazon web services now AWS is a secure
+
+76
+00:03:04,920 --> 00:03:07,080
+Cloud platform offering compute power
+
+77
+00:03:07,080 --> 00:03:09,599
+database storage content delivery and
+
+78
+00:03:09,599 --> 00:03:11,400
+other functionality to help business
+
+79
+00:03:11,400 --> 00:03:13,379
+scale and grow now if I talk about what
+
+80
+00:03:13,379 --> 00:03:14,819
+is the use of cloud now if I ask from
+
+81
+00:03:14,819 --> 00:03:17,040
+you guys what is a cloud cloud is
+
+82
+00:03:17,040 --> 00:03:18,420
+basically you know collection of
+
+83
+00:03:18,420 --> 00:03:20,879
+computing resources which is your power
+
+84
+00:03:20,879 --> 00:03:22,800
+supply hardware that you get access from
+
+85
+00:03:22,800 --> 00:03:24,900
+anywhere now for example I have to build
+
+86
+00:03:24,900 --> 00:03:27,180
+a let's say windows 2019 operating
+
+87
+00:03:27,180 --> 00:03:29,280
+system I'm going to build on a computer
+
+88
+00:03:29,280 --> 00:03:31,200
+and I have to take their computer
+
+89
+00:03:31,200 --> 00:03:32,879
+everywhere with me you know it can be a
+
+90
+00:03:32,879 --> 00:03:34,860
+desktop it can be a laptop I'm going to
+
+91
+00:03:34,860 --> 00:03:36,360
+have it Hardware requirement everywhere
+
+92
+00:03:36,360 --> 00:03:38,459
+now in the case of cloud what we can do
+
+93
+00:03:38,459 --> 00:03:40,080
+is I can build it on the cloud system
+
+94
+00:03:40,080 --> 00:03:42,180
+and I can easily access it from
+
+95
+00:03:42,180 --> 00:03:44,519
+everywhere so that is one of the biggest
+
+96
+00:03:44,519 --> 00:03:47,459
+benefit that we have that wherever we
+
+97
+00:03:47,459 --> 00:03:49,620
+have the bulk of data which we need to
+
+98
+00:03:49,620 --> 00:03:51,299
+access from everywhere that data can be
+
+99
+00:03:51,299 --> 00:03:53,580
+accessed managed and manipulated uh very
+
+100
+00:03:53,580 --> 00:03:55,440
+easily so that's the advantage of cloud
+
+101
+00:03:55,440 --> 00:03:56,459
+like I'm going to create a virtual
+
+102
+00:03:56,459 --> 00:03:58,440
+machine I can create in seconds and I
+
+103
+00:03:58,440 --> 00:04:01,200
+can access it from everywhere now
+
+104
+00:04:01,200 --> 00:04:04,680
+talking about big data in AWS now before
+
+105
+00:04:04,680 --> 00:04:07,200
+I talk about that as well AWS is a cloud
+
+106
+00:04:07,200 --> 00:04:09,239
+platform cloud service which is given by
+
+107
+00:04:09,239 --> 00:04:11,580
+Azure now we have the cloud service
+
+108
+00:04:11,580 --> 00:04:13,379
+which is given by Microsoft which is
+
+109
+00:04:13,379 --> 00:04:15,780
+known as Microsoft Azure which is
+
+110
+00:04:15,780 --> 00:04:17,040
+basically the cloud service from
+
+111
+00:04:17,040 --> 00:04:19,918
+Microsoft Azure likewise AWS is the name
+
+112
+00:04:19,918 --> 00:04:21,839
+of a cloud service from Amazon likewise
+
+113
+00:04:21,839 --> 00:04:23,699
+we have the cloud storage from Google
+
+114
+00:04:23,699 --> 00:04:26,220
+which is known as gcp Google Cloud
+
+115
+00:04:26,220 --> 00:04:29,880
+platform navigation big data and AWS you
+
+116
+00:04:29,880 --> 00:04:31,259
+have the ews plus you have a different
+
+117
+00:04:31,259 --> 00:04:33,180
+form of data that you combine and you
+
+118
+00:04:33,180 --> 00:04:35,160
+can manage easily here
+
+119
+00:04:35,160 --> 00:04:37,800
+now talking about structured learning in
+
+120
+00:04:37,800 --> 00:04:39,540
+Eureka if you are highly interested to
+
+121
+00:04:39,540 --> 00:04:41,040
+learn the entire course end to end in
+
+122
+00:04:41,040 --> 00:04:42,840
+detail uh this is the way we are going
+
+123
+00:04:42,840 --> 00:04:43,979
+to proceed in the very first class
+
+124
+00:04:43,979 --> 00:04:45,360
+you're going to understand what is Big
+
+125
+00:04:45,360 --> 00:04:47,580
+Data and what is going to do uh with the
+
+126
+00:04:47,580 --> 00:04:49,380
+critical Hands-On in the second class
+
+127
+00:04:49,380 --> 00:04:51,900
+you will learn about Hadoop architecture
+
+128
+00:04:51,900 --> 00:04:54,840
+and hdfs with the Practical Hands-On in
+
+129
+00:04:54,840 --> 00:04:55,919
+the third class you will learn about
+
+130
+00:04:55,919 --> 00:04:58,199
+Hadoop map reduce framework with the
+
+131
+00:04:58,199 --> 00:05:00,419
+Hands-On in the fourth class we will
+
+132
+00:05:00,419 --> 00:05:01,979
+learn about what is Advanced Hadoop
+
+133
+00:05:01,979 --> 00:05:04,080
+mapreduce it's component core components
+
+134
+00:05:04,080 --> 00:05:05,820
+with the Hands-On in the fifth class you
+
+135
+00:05:05,820 --> 00:05:07,680
+will learn about Apache big with the
+
+136
+00:05:07,680 --> 00:05:09,419
+Hands-On in the sixth class we will
+
+137
+00:05:09,419 --> 00:05:11,340
+learn about Apache Hive with the
+
+138
+00:05:11,340 --> 00:05:13,320
+Hands-On in the seventh class we will
+
+139
+00:05:13,320 --> 00:05:15,360
+learn about Advanced Apache hype and
+
+140
+00:05:15,360 --> 00:05:18,360
+Edge base to the Hands-On in the eighth
+
+141
+00:05:18,360 --> 00:05:19,740
+class we will learn about Advanced
+
+142
+00:05:19,740 --> 00:05:23,039
+Apache HBS with a Hands-On in a ninth
+
+143
+00:05:23,039 --> 00:05:24,240
+class we will learn about processing
+
+144
+00:05:24,240 --> 00:05:26,759
+distributed data with Apache spark with
+
+145
+00:05:26,759 --> 00:05:29,220
+the Hands-On and the 10th class we will
+
+146
+00:05:29,220 --> 00:05:31,680
+learn about Oz and Hadoop project with
+
+147
+00:05:31,680 --> 00:05:33,960
+the Practical handsome and at the end
+
+148
+00:05:33,960 --> 00:05:35,340
+you are going to become a superhero who
+
+149
+00:05:35,340 --> 00:05:37,500
+is going to have a cape like this just
+
+150
+00:05:37,500 --> 00:05:38,520
+kidding you are going to become a
+
+151
+00:05:38,520 --> 00:05:41,280
+superhero with the knowledge now talking
+
+152
+00:05:41,280 --> 00:05:44,880
+about how exactly your AWS can solve the
+
+153
+00:05:44,880 --> 00:05:46,919
+problem so basically we have the big
+
+154
+00:05:46,919 --> 00:05:48,360
+data challenges so many Big Data
+
+155
+00:05:48,360 --> 00:05:50,520
+challenges that we have how basically
+
+156
+00:05:50,520 --> 00:05:53,160
+you know AWS can solve those challenges
+
+157
+00:05:53,160 --> 00:05:56,280
+out now let's take a look so one of the
+
+158
+00:05:56,280 --> 00:05:58,259
+biggest challenge that we basically get
+
+159
+00:05:58,259 --> 00:06:01,199
+is data ingestion because our data
+
+160
+00:06:01,199 --> 00:06:02,880
+injection uh this is the biggest
+
+161
+00:06:02,880 --> 00:06:04,500
+challenge that we get like how we are
+
+162
+00:06:04,500 --> 00:06:05,820
+going to ingest the data how we can
+
+163
+00:06:05,820 --> 00:06:08,460
+manage the data everything so that's the
+
+164
+00:06:08,460 --> 00:06:10,500
+biggest problem which we get like for
+
+165
+00:06:10,500 --> 00:06:12,240
+example if I'm bringing different type
+
+166
+00:06:12,240 --> 00:06:14,580
+of data into a single file structure and
+
+167
+00:06:14,580 --> 00:06:15,840
+structured it is very difficult for you
+
+168
+00:06:15,840 --> 00:06:17,340
+to manage that's the biggest problem
+
+169
+00:06:17,340 --> 00:06:19,380
+second problem that we have is which is
+
+170
+00:06:19,380 --> 00:06:21,539
+data storage now we are going to have a
+
+171
+00:06:21,539 --> 00:06:23,460
+bulk of data So eventually we are going
+
+172
+00:06:23,460 --> 00:06:25,139
+to run out of a space at some point of
+
+173
+00:06:25,139 --> 00:06:28,319
+time so how I can store different type
+
+174
+00:06:28,319 --> 00:06:31,860
+of data third is data preprocessing so
+
+175
+00:06:31,860 --> 00:06:34,319
+data preprocessing basically is one of
+
+176
+00:06:34,319 --> 00:06:35,759
+the way where the data is going to be
+
+177
+00:06:35,759 --> 00:06:38,340
+processed right now and uh we want to
+
+178
+00:06:38,340 --> 00:06:40,139
+let's say use this data in different
+
+179
+00:06:40,139 --> 00:06:42,060
+applications how we will be able to use
+
+180
+00:06:42,060 --> 00:06:44,400
+it and the last one is data
+
+181
+00:06:44,400 --> 00:06:45,960
+visualization now which is the biggest
+
+182
+00:06:45,960 --> 00:06:47,280
+Factor the people who are the management
+
+183
+00:06:47,280 --> 00:06:49,800
+they need a real-time course and all so
+
+184
+00:06:49,800 --> 00:06:52,620
+how easily we can have that data you
+
+185
+00:06:52,620 --> 00:06:54,419
+know visualization how basically we can
+
+186
+00:06:54,419 --> 00:06:56,940
+create a report and how basically we can
+
+187
+00:06:56,940 --> 00:06:59,759
+manage it so how can we do this now
+
+188
+00:06:59,759 --> 00:07:02,100
+let's take a look first is basically for
+
+189
+00:07:02,100 --> 00:07:03,600
+data ingestion problem we have a feature
+
+190
+00:07:03,600 --> 00:07:06,860
+of Amazon finances
+
+191
+00:07:06,860 --> 00:07:09,960
+we can easily manage it out now for data
+
+192
+00:07:09,960 --> 00:07:11,639
+preprocessing we basically have Amazon
+
+193
+00:07:11,639 --> 00:07:13,979
+EMR Amazon redshift with real process we
+
+194
+00:07:13,979 --> 00:07:16,380
+can easily manage it for data storage we
+
+195
+00:07:16,380 --> 00:07:19,319
+basically have Amazon S3 and Amazon to
+
+196
+00:07:19,319 --> 00:07:20,819
+the help of which we can easily manage
+
+197
+00:07:20,819 --> 00:07:22,860
+it and for the last data visualization
+
+198
+00:07:22,860 --> 00:07:25,860
+we have the quick Insight now all these
+
+199
+00:07:25,860 --> 00:07:27,479
+are itself it basically is a bigger
+
+200
+00:07:27,479 --> 00:07:29,880
+module so this is not like that it's a
+
+201
+00:07:29,880 --> 00:07:31,560
+smaller module in itself this is the one
+
+202
+00:07:31,560 --> 00:07:33,300
+of the biggest module like for example
+
+203
+00:07:33,300 --> 00:07:34,680
+just for quick side I can have a couple
+
+204
+00:07:34,680 --> 00:07:36,419
+of hours of discussion Amazon history I
+
+205
+00:07:36,419 --> 00:07:37,259
+can have a couple of hours for
+
+206
+00:07:37,259 --> 00:07:39,419
+discussion so here this we are telling
+
+207
+00:07:39,419 --> 00:07:41,099
+the higher level over here because this
+
+208
+00:07:41,099 --> 00:07:44,340
+is in terms of it but if you want to uh
+
+209
+00:07:44,340 --> 00:07:46,020
+you know learn everything in detail you
+
+210
+00:07:46,020 --> 00:07:47,400
+can enroll for the cards where we
+
+211
+00:07:47,400 --> 00:07:49,620
+covered each and everything in detail
+
+212
+00:07:49,620 --> 00:07:51,599
+okay so you can wrap up the session for
+
+213
+00:07:51,599 --> 00:07:54,680
+today thank you so much
+

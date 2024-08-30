@@ -1,0 +1,1112 @@
+1
+00:00:10,679 --> 00:00:13,259
+react and react native are among the
+
+2
+00:00:13,259 --> 00:00:15,299
+most popular Technologies used to create
+
+3
+00:00:15,299 --> 00:00:17,460
+various types of applications
+
+4
+00:00:17,460 --> 00:00:19,020
+owing to the fact that they are
+
+5
+00:00:19,020 --> 00:00:21,240
+developed by the same company react and
+
+6
+00:00:21,240 --> 00:00:23,580
+react native are very much similar yet
+
+7
+00:00:23,580 --> 00:00:25,439
+different from each other
+
+8
+00:00:25,439 --> 00:00:27,539
+so hey guys welcome back to a whole new
+
+9
+00:00:27,539 --> 00:00:30,240
+session from edureka my name is vajiha
+
+10
+00:00:30,240 --> 00:00:31,920
+and in today's session we're going to
+
+11
+00:00:31,920 --> 00:00:33,840
+differentiate between react and react
+
+12
+00:00:33,840 --> 00:00:34,920
+native
+
+13
+00:00:34,920 --> 00:00:36,960
+we'll start the session by understanding
+
+14
+00:00:36,960 --> 00:00:39,420
+what is react and the features of react
+
+15
+00:00:39,420 --> 00:00:41,700
+then we shall take a look at a react
+
+16
+00:00:41,700 --> 00:00:44,700
+native and its features finally we'll do
+
+17
+00:00:44,700 --> 00:00:46,500
+a head-to-head comparison between react
+
+18
+00:00:46,500 --> 00:00:49,079
+and react native okay so without any
+
+19
+00:00:49,079 --> 00:00:51,360
+further delays let's move on what
+
+20
+00:00:51,360 --> 00:00:54,300
+exactly is react react is a JavaScript
+
+21
+00:00:54,300 --> 00:00:56,820
+library that is used to build user
+
+22
+00:00:56,820 --> 00:00:59,699
+interface for web applications react.js
+
+23
+00:00:59,699 --> 00:01:02,340
+was developed by Jordan walk a software
+
+24
+00:01:02,340 --> 00:01:04,379
+engineer working at Facebook
+
+25
+00:01:04,379 --> 00:01:08,220
+Facebook implemented react.js in 2011 in
+
+26
+00:01:08,220 --> 00:01:10,320
+its news feed section but it was
+
+27
+00:01:10,320 --> 00:01:12,900
+released to the public on May 2013.
+
+28
+00:01:12,900 --> 00:01:14,939
+after the implementation of react
+
+29
+00:01:14,939 --> 00:01:17,040
+Facebook's UI underwent drastic
+
+30
+00:01:17,040 --> 00:01:18,240
+improvement
+
+31
+00:01:18,240 --> 00:01:21,060
+this resulted in satisfied users and a
+
+32
+00:01:21,060 --> 00:01:23,759
+sudden boost in its popularity not just
+
+33
+00:01:23,759 --> 00:01:26,159
+that react is also used in other
+
+34
+00:01:26,159 --> 00:01:28,140
+Facebook applications such as WhatsApp
+
+35
+00:01:28,140 --> 00:01:29,280
+Instagram
+
+36
+00:01:29,280 --> 00:01:32,820
+Etc popular websites like Netflix Airbnb
+
+37
+00:01:32,820 --> 00:01:35,759
+Dropbox Etc make use of react to build
+
+38
+00:01:35,759 --> 00:01:38,460
+their UI it is currently one of the most
+
+39
+00:01:38,460 --> 00:01:40,439
+popular JavaScript front-end libraries
+
+40
+00:01:40,439 --> 00:01:42,540
+which has strong foundation and a large
+
+41
+00:01:42,540 --> 00:01:45,180
+community supporting it stack Overflow
+
+42
+00:01:45,180 --> 00:01:47,700
+developer survey 2020 shows that react
+
+43
+00:01:47,700 --> 00:01:49,740
+is is the second most loved web
+
+44
+00:01:49,740 --> 00:01:52,860
+framework just after asp.net core not
+
+45
+00:01:52,860 --> 00:01:55,200
+just that react also tops the list of
+
+46
+00:01:55,200 --> 00:01:57,960
+most Wanted web Frameworks since react
+
+47
+00:01:57,960 --> 00:02:00,420
+is only a front-end library and not the
+
+48
+00:02:00,420 --> 00:02:02,460
+whole framework it Deals Only With The
+
+49
+00:02:02,460 --> 00:02:04,500
+View component of the MVC or the model
+
+50
+00:02:04,500 --> 00:02:07,200
+view controller architecture in react
+
+51
+00:02:07,200 --> 00:02:09,239
+everything is a component
+
+52
+00:02:09,239 --> 00:02:11,520
+consider one Lego house as an entire
+
+53
+00:02:11,520 --> 00:02:14,459
+application then compare each of the
+
+54
+00:02:14,459 --> 00:02:16,739
+Lego blocks to the component which acts
+
+55
+00:02:16,739 --> 00:02:19,140
+as a building block these blocks or
+
+56
+00:02:19,140 --> 00:02:21,120
+components are integrated together to
+
+57
+00:02:21,120 --> 00:02:23,239
+build one bigger and dynamic application
+
+58
+00:02:23,239 --> 00:02:25,500
+the biggest advantage of using
+
+59
+00:02:25,500 --> 00:02:27,599
+components is that you can change any
+
+60
+00:02:27,599 --> 00:02:29,940
+component at any point in time without
+
+61
+00:02:29,940 --> 00:02:31,760
+affecting the rest of the application
+
+62
+00:02:31,760 --> 00:02:34,260
+this feature is most effective when
+
+63
+00:02:34,260 --> 00:02:36,239
+implemented with larger and real-time
+
+64
+00:02:36,239 --> 00:02:38,220
+applications where the data changes
+
+65
+00:02:38,220 --> 00:02:41,099
+frequently each time any data is added
+
+66
+00:02:41,099 --> 00:02:43,739
+or updated react automatically updates
+
+67
+00:02:43,739 --> 00:02:46,200
+the specific component whose state has
+
+68
+00:02:46,200 --> 00:02:48,959
+actually changed this saves the browser
+
+69
+00:02:48,959 --> 00:02:50,879
+from the task of reloading the whole
+
+70
+00:02:50,879 --> 00:02:53,160
+application to reflect the changes
+
+71
+00:02:53,160 --> 00:02:55,800
+so talking about the features of react
+
+72
+00:02:55,800 --> 00:03:00,239
+jsx jsx stands for JavaScript XML it is
+
+73
+00:03:00,239 --> 00:03:03,660
+an XML HTML like syntax used by react
+
+74
+00:03:03,660 --> 00:03:07,560
+it extends the ecmascript so that XML or
+
+75
+00:03:07,560 --> 00:03:10,560
+HTML like text can co-exist along with
+
+76
+00:03:10,560 --> 00:03:12,720
+the JavaScript react code
+
+77
+00:03:12,720 --> 00:03:15,480
+this syntax is used by the preprocessors
+
+78
+00:03:15,480 --> 00:03:18,239
+like Babel to transform HTML like text
+
+79
+00:03:18,239 --> 00:03:20,700
+found in JavaScript files into standard
+
+80
+00:03:20,700 --> 00:03:24,360
+JavaScript objects with jsx you can go a
+
+81
+00:03:24,360 --> 00:03:26,940
+step further by again embedding the HTML
+
+82
+00:03:26,940 --> 00:03:29,459
+code inside the JavaScript this makes
+
+83
+00:03:29,459 --> 00:03:32,280
+HTML code easy to understand and boosts
+
+84
+00:03:32,280 --> 00:03:34,379
+JavaScript performance while making our
+
+85
+00:03:34,379 --> 00:03:37,860
+application robust virtual Dom like an
+
+86
+00:03:37,860 --> 00:03:40,379
+actual Dom virtual Dom is also a node
+
+87
+00:03:40,379 --> 00:03:42,599
+tree that lists the elements and their
+
+88
+00:03:42,599 --> 00:03:45,239
+attributes and content as objects and
+
+89
+00:03:45,239 --> 00:03:47,819
+their properties reacts render function
+
+90
+00:03:47,819 --> 00:03:49,799
+creates a node tree out of the react
+
+91
+00:03:49,799 --> 00:03:53,040
+components then it Updates this tree in
+
+92
+00:03:53,040 --> 00:03:55,080
+response to the mutations in data model
+
+93
+00:03:55,080 --> 00:03:57,659
+caused by various actions done either by
+
+94
+00:03:57,659 --> 00:04:00,360
+the user or byte system virtual Dom
+
+95
+00:04:00,360 --> 00:04:03,180
+Works in three steps whenever any
+
+96
+00:04:03,180 --> 00:04:06,060
+underlying data changes the entire UI is
+
+97
+00:04:06,060 --> 00:04:07,680
+re-rendered in the virtual Dom
+
+98
+00:04:07,680 --> 00:04:10,019
+representation then the difference
+
+99
+00:04:10,019 --> 00:04:11,819
+between the previous term representation
+
+100
+00:04:11,819 --> 00:04:14,700
+and the new one is calculated once the
+
+101
+00:04:14,700 --> 00:04:16,858
+calculations are done the real Dom will
+
+102
+00:04:16,858 --> 00:04:19,019
+be updated only with things that have
+
+103
+00:04:19,019 --> 00:04:21,120
+actually changed this makes our
+
+104
+00:04:21,120 --> 00:04:23,520
+application much faster and there is no
+
+105
+00:04:23,520 --> 00:04:24,900
+memory wastage
+
+106
+00:04:24,900 --> 00:04:28,020
+testability react views can be used as
+
+107
+00:04:28,020 --> 00:04:30,540
+functions of the state state is an
+
+108
+00:04:30,540 --> 00:04:32,460
+object which determines how a component
+
+109
+00:04:32,460 --> 00:04:35,100
+will render and behave thus we can
+
+110
+00:04:35,100 --> 00:04:36,660
+easily manipulate with the state of
+
+111
+00:04:36,660 --> 00:04:38,820
+components which we pass to the react
+
+112
+00:04:38,820 --> 00:04:41,220
+View and take a look at the output and
+
+113
+00:04:41,220 --> 00:04:43,759
+triggered actions events functions Etc
+
+114
+00:04:43,759 --> 00:04:46,620
+this makes react applications quite easy
+
+115
+00:04:46,620 --> 00:04:48,300
+to test and debug
+
+116
+00:04:48,300 --> 00:04:50,759
+server side rendering server side
+
+117
+00:04:50,759 --> 00:04:52,800
+rendering allows you to pre-render the
+
+118
+00:04:52,800 --> 00:04:54,660
+initial state of your react components
+
+119
+00:04:54,660 --> 00:04:57,960
+at the server site only with SSR the
+
+120
+00:04:57,960 --> 00:04:59,880
+server's response to the browser becomes
+
+121
+00:04:59,880 --> 00:05:02,400
+only the HTML of the page which is now
+
+122
+00:05:02,400 --> 00:05:05,040
+ready to be rendered thus the browser
+
+123
+00:05:05,040 --> 00:05:06,960
+can now start rendering without having
+
+124
+00:05:06,960 --> 00:05:09,000
+to wait for all the JavaScript to be
+
+125
+00:05:09,000 --> 00:05:12,060
+loaded and executed as a result the web
+
+126
+00:05:12,060 --> 00:05:15,120
+page loads faster here the user will be
+
+127
+00:05:15,120 --> 00:05:17,160
+able to see the real web page in spite
+
+128
+00:05:17,160 --> 00:05:18,720
+of react still downloading the
+
+129
+00:05:18,720 --> 00:05:20,639
+JavaScript creating the virtual Dom
+
+130
+00:05:20,639 --> 00:05:23,520
+linking events Etc at the back end
+
+131
+00:05:23,520 --> 00:05:26,160
+one-way data binding unlike other
+
+132
+00:05:26,160 --> 00:05:28,860
+Frameworks react follows unidirectional
+
+133
+00:05:28,860 --> 00:05:31,620
+data flow for one-way data binding the
+
+134
+00:05:31,620 --> 00:05:33,539
+major advantage of one-way data binding
+
+135
+00:05:33,539 --> 00:05:35,639
+is that throughout the application the
+
+136
+00:05:35,639 --> 00:05:37,740
+data flows in a single Direction which
+
+137
+00:05:37,740 --> 00:05:39,479
+gives you a better control over it
+
+138
+00:05:39,479 --> 00:05:42,300
+because of this application state is
+
+139
+00:05:42,300 --> 00:05:45,060
+contained in specific stores and as a
+
+140
+00:05:45,060 --> 00:05:47,160
+result rest of the components remained
+
+141
+00:05:47,160 --> 00:05:49,560
+Loosely coupled this makes our
+
+142
+00:05:49,560 --> 00:05:51,539
+application more flexible leading to
+
+143
+00:05:51,539 --> 00:05:53,220
+increased efficiency
+
+144
+00:05:53,220 --> 00:05:56,699
+Simplicity the use of jsx files makes
+
+145
+00:05:56,699 --> 00:05:58,740
+the application really simple and easy
+
+146
+00:05:58,740 --> 00:06:00,900
+to code as well as understand
+
+147
+00:06:00,900 --> 00:06:03,060
+even though we can use plain JavaScript
+
+148
+00:06:03,060 --> 00:06:06,720
+here using jsx is easier the acts
+
+149
+00:06:06,720 --> 00:06:08,820
+component based approach along with
+
+150
+00:06:08,820 --> 00:06:11,220
+distinct life cycle methods also makes
+
+151
+00:06:11,220 --> 00:06:12,780
+it simple to learn
+
+152
+00:06:12,780 --> 00:06:15,000
+okay so now moving on towards react
+
+153
+00:06:15,000 --> 00:06:18,000
+native react native is a cross-platform
+
+154
+00:06:18,000 --> 00:06:20,759
+mobile application development framework
+
+155
+00:06:20,759 --> 00:06:23,039
+react native was also created by
+
+156
+00:06:23,039 --> 00:06:24,000
+Facebook
+
+157
+00:06:24,000 --> 00:06:26,160
+it makes use of JavaScript as the base
+
+158
+00:06:26,160 --> 00:06:29,039
+language over the years JavaScript has
+
+159
+00:06:29,039 --> 00:06:30,840
+gained immense popularity due to the
+
+160
+00:06:30,840 --> 00:06:33,479
+ease in learning and widespread usage
+
+161
+00:06:33,479 --> 00:06:35,340
+if someone is well versed with
+
+162
+00:06:35,340 --> 00:06:37,380
+JavaScript they can start developing
+
+163
+00:06:37,380 --> 00:06:39,720
+applications using react native without
+
+164
+00:06:39,720 --> 00:06:41,880
+wasting much time getting accustomed to
+
+165
+00:06:41,880 --> 00:06:42,960
+the framework
+
+166
+00:06:42,960 --> 00:06:45,060
+react native's architecture heavily
+
+167
+00:06:45,060 --> 00:06:47,280
+relies on JavaScript runtime environment
+
+168
+00:06:47,280 --> 00:06:49,560
+architecture also known as JavaScript
+
+169
+00:06:49,560 --> 00:06:50,639
+Bridge
+
+170
+00:06:50,639 --> 00:06:52,740
+the JavaScript code is compiled into
+
+171
+00:06:52,740 --> 00:06:55,979
+native code at runtime react native uses
+
+172
+00:06:55,979 --> 00:06:58,680
+flux architecture from Facebook in short
+
+173
+00:06:58,680 --> 00:07:01,319
+react native uses JavaScript bridge to
+
+174
+00:07:01,319 --> 00:07:03,479
+communicate with the native modules
+
+175
+00:07:03,479 --> 00:07:06,240
+with react native a developer is just
+
+176
+00:07:06,240 --> 00:07:08,460
+provided with UI rendering and device
+
+177
+00:07:08,460 --> 00:07:11,699
+access modules for Native features react
+
+178
+00:07:11,699 --> 00:07:13,380
+native is heavily dependent on
+
+179
+00:07:13,380 --> 00:07:15,900
+third-party libraries and modules so
+
+180
+00:07:15,900 --> 00:07:17,580
+coming towards the features of react
+
+181
+00:07:17,580 --> 00:07:20,180
+native write ones and use everywhere
+
+182
+00:07:20,180 --> 00:07:23,639
+this is react native's base feature it
+
+183
+00:07:23,639 --> 00:07:25,440
+means that the code written in react
+
+184
+00:07:25,440 --> 00:07:27,720
+native can be used on any of the mobile
+
+185
+00:07:27,720 --> 00:07:29,759
+platforms to build native applications
+
+186
+00:07:29,759 --> 00:07:32,039
+or applications that work on multiple
+
+187
+00:07:32,039 --> 00:07:33,180
+platforms
+
+188
+00:07:33,180 --> 00:07:36,120
+language as mentioned earlier react
+
+189
+00:07:36,120 --> 00:07:38,220
+native makes use of JavaScript which is
+
+190
+00:07:38,220 --> 00:07:40,080
+one of the most popular and widely used
+
+191
+00:07:40,080 --> 00:07:42,120
+web development languages
+
+192
+00:07:42,120 --> 00:07:44,880
+for every web developer JavaScript is a
+
+193
+00:07:44,880 --> 00:07:47,699
+must-have skill what's more this Ultra
+
+194
+00:07:47,699 --> 00:07:49,740
+essential skill is very easy to learn
+
+195
+00:07:49,740 --> 00:07:51,060
+and to implement
+
+196
+00:07:51,060 --> 00:07:53,400
+Community Support when it comes to
+
+197
+00:07:53,400 --> 00:07:55,620
+Community Support react native surely
+
+198
+00:07:55,620 --> 00:07:58,020
+has a diverse community that even Hosts
+
+199
+00:07:58,020 --> 00:08:01,139
+International meetups plugins when you
+
+200
+00:08:01,139 --> 00:08:03,300
+make use of reacts native you have a
+
+201
+00:08:03,300 --> 00:08:05,099
+great advantage of adding additional
+
+202
+00:08:05,099 --> 00:08:07,440
+third-party packages or plugins that you
+
+203
+00:08:07,440 --> 00:08:09,199
+would like to use in your application
+
+204
+00:08:09,199 --> 00:08:12,780
+Live reload the live reload feature is
+
+205
+00:08:12,780 --> 00:08:14,759
+one of the best features that assists
+
+206
+00:08:14,759 --> 00:08:16,259
+the developer while creating the
+
+207
+00:08:16,259 --> 00:08:18,720
+application using live reload you will
+
+208
+00:08:18,720 --> 00:08:20,520
+be able to modify the code as well as
+
+209
+00:08:20,520 --> 00:08:23,160
+see the modifications simultaneously
+
+210
+00:08:23,160 --> 00:08:26,340
+testing react native is cost efficient
+
+211
+00:08:26,340 --> 00:08:28,560
+when it comes to testing it provides a
+
+212
+00:08:28,560 --> 00:08:30,479
+few unit testing functionalities through
+
+213
+00:08:30,479 --> 00:08:32,399
+JavaScript Frameworks and snapshot
+
+214
+00:08:32,399 --> 00:08:34,440
+testing can be done using tools like
+
+215
+00:08:34,440 --> 00:08:36,479
+jest for other sorts of testing
+
+216
+00:08:36,479 --> 00:08:39,000
+applications built using react native
+
+217
+00:08:39,000 --> 00:08:40,740
+heavily depend on third-party
+
+218
+00:08:40,740 --> 00:08:42,839
+applications so now that you know what
+
+219
+00:08:42,839 --> 00:08:44,640
+is react and react native and their
+
+220
+00:08:44,640 --> 00:08:46,680
+features let's move on and see what is
+
+221
+00:08:46,680 --> 00:08:48,899
+the difference between them so the first
+
+222
+00:08:48,899 --> 00:08:50,580
+factor that we're going to talk about is
+
+223
+00:08:50,580 --> 00:08:53,580
+the application types or the usage react
+
+224
+00:08:53,580 --> 00:08:55,380
+is used to develop web applications
+
+225
+00:08:55,380 --> 00:08:57,600
+whereas reactinative is used for mobile
+
+226
+00:08:57,600 --> 00:09:00,420
+application development some examples of
+
+227
+00:09:00,420 --> 00:09:02,760
+web applications created using react are
+
+228
+00:09:02,760 --> 00:09:05,580
+Facebook Netflix New York Times Yahoo
+
+229
+00:09:05,580 --> 00:09:08,700
+mail Etc on the other hand react native
+
+230
+00:09:08,700 --> 00:09:10,860
+is used in mobile applications such as
+
+231
+00:09:10,860 --> 00:09:13,860
+Instagram Facebook ads manager Bloomberg
+
+232
+00:09:13,860 --> 00:09:16,740
+Airbnb ubereats Etc
+
+233
+00:09:16,740 --> 00:09:19,620
+setup and bundling react native is a
+
+234
+00:09:19,620 --> 00:09:21,660
+framework of JavaScript and it comes
+
+235
+00:09:21,660 --> 00:09:23,339
+with all the essentials that you will
+
+236
+00:09:23,339 --> 00:09:25,260
+need to set up and for the development
+
+237
+00:09:25,260 --> 00:09:27,839
+of your application react on the other
+
+238
+00:09:27,839 --> 00:09:29,940
+hand is just a library of JavaScript
+
+239
+00:09:29,940 --> 00:09:32,399
+therefore when you use react you will
+
+240
+00:09:32,399 --> 00:09:34,380
+need various other tools for setup and
+
+241
+00:09:34,380 --> 00:09:35,399
+development
+
+242
+00:09:35,399 --> 00:09:38,940
+live reload live reload or hot reload as
+
+243
+00:09:38,940 --> 00:09:40,740
+mentioned earlier is a feature that
+
+244
+00:09:40,740 --> 00:09:42,600
+allows you to code as well as see the
+
+245
+00:09:42,600 --> 00:09:44,180
+modifications in your application
+
+246
+00:09:44,180 --> 00:09:47,160
+simultaneously react native supports
+
+247
+00:09:47,160 --> 00:09:49,519
+live reload whereas react does not
+
+248
+00:09:49,519 --> 00:09:52,980
+template rendering both react and react
+
+249
+00:09:52,980 --> 00:09:55,200
+native use jsx for the development of
+
+250
+00:09:55,200 --> 00:09:57,660
+views or the templates but react is much
+
+251
+00:09:57,660 --> 00:09:59,399
+better when it comes to styling your
+
+252
+00:09:59,399 --> 00:10:02,640
+application's UI using CSS react native
+
+253
+00:10:02,640 --> 00:10:04,560
+on the other hand makes use of native
+
+254
+00:10:04,560 --> 00:10:07,860
+platform apis learning curve even though
+
+255
+00:10:07,860 --> 00:10:09,660
+react is not very difficult to learn
+
+256
+00:10:09,660 --> 00:10:12,720
+react native is much easier this is
+
+257
+00:10:12,720 --> 00:10:14,820
+because you can make use of ready-made
+
+258
+00:10:14,820 --> 00:10:17,040
+components in react native while for
+
+259
+00:10:17,040 --> 00:10:18,779
+react you will have to coach them
+
+260
+00:10:18,779 --> 00:10:20,040
+yourself
+
+261
+00:10:20,040 --> 00:10:22,140
+so we've done a head-to-head comparison
+
+262
+00:10:22,140 --> 00:10:24,720
+between react and react native the
+
+263
+00:10:24,720 --> 00:10:26,399
+answer to which one is better among the
+
+264
+00:10:26,399 --> 00:10:28,380
+two depends on the type of project that
+
+265
+00:10:28,380 --> 00:10:30,720
+you're creating if you are focusing on
+
+266
+00:10:30,720 --> 00:10:32,700
+creating the UI for a web application
+
+267
+00:10:32,700 --> 00:10:35,640
+then react is what you need but if your
+
+268
+00:10:35,640 --> 00:10:36,839
+project is going to be a mobile
+
+269
+00:10:36,839 --> 00:10:38,940
+application then you can go with react
+
+270
+00:10:38,940 --> 00:10:39,839
+native
+
+271
+00:10:39,839 --> 00:10:41,820
+this brings us to the end of the session
+
+272
+00:10:41,820 --> 00:10:43,920
+I hope you guys have enjoyed and learned
+
+273
+00:10:43,920 --> 00:10:45,720
+something new in case you have any
+
+274
+00:10:45,720 --> 00:10:47,519
+doubts or queries please do let me know
+
+275
+00:10:47,519 --> 00:10:49,260
+in the comment section and I will reward
+
+276
+00:10:49,260 --> 00:10:51,240
+to you at the earliest we'll be back
+
+277
+00:10:51,240 --> 00:10:53,160
+with more and more exciting sessions but
+
+278
+00:10:53,160 --> 00:10:56,720
+till then goodbye and take care
+

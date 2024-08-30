@@ -1,0 +1,1721 @@
+1
+00:00:04,300 --> 00:00:05,000
+Hello, everyone.
+
+2
+00:00:05,000 --> 00:00:06,743
+This is Atul from Edureka
+
+3
+00:00:06,743 --> 00:00:09,500
+and welcome to today's topic
+of discussion on
+
+4
+00:00:09,500 --> 00:00:11,600
+AI vs Machine Learning
+vs Deep Learning.
+
+5
+00:00:11,600 --> 00:00:14,349
+These are the term
+which have confused a lot
+
+6
+00:00:14,349 --> 00:00:17,100
+of people and if you
+too are one among them,
+
+7
+00:00:17,100 --> 00:00:18,517
+let me resolve it for you.
+
+8
+00:00:18,517 --> 00:00:21,560
+Well artificial intelligence
+is a broader umbrella
+
+9
+00:00:21,560 --> 00:00:23,300
+under which machine learning
+
+10
+00:00:23,300 --> 00:00:26,200
+and deep learning come you
+can also see in the diagram
+
+11
+00:00:26,200 --> 00:00:29,455
+that even deep learning is
+a subset of machine learning
+
+12
+00:00:29,455 --> 00:00:30,310
+so you can say
+
+13
+00:00:30,310 --> 00:00:33,500
+that all three of them
+the AI the machine learning
+
+14
+00:00:33,500 --> 00:00:36,772
+and deep learning are just
+the subset of each other.
+
+15
+00:00:36,772 --> 00:00:38,672
+So let's move on and understand
+
+16
+00:00:38,672 --> 00:00:41,000
+how exactly the differ
+from each other.
+
+17
+00:00:41,000 --> 00:00:43,600
+So let's start
+with artificial intelligence.
+
+18
+00:00:43,700 --> 00:00:46,013
+The term artificial intelligence
+
+19
+00:00:46,013 --> 00:00:48,400
+was first coined
+in the year 1956.
+
+20
+00:00:48,400 --> 00:00:50,300
+The concept is pretty old,
+
+21
+00:00:50,300 --> 00:00:53,100
+but it has gained
+its popularity recently.
+
+22
+00:00:53,100 --> 00:00:54,500
+But why well,
+
+23
+00:00:54,500 --> 00:00:58,079
+the reason is earlier we had
+very small amount of data
+
+24
+00:00:58,079 --> 00:01:02,200
+the data we had Was not enough
+to predict the accurate result,
+
+25
+00:01:02,200 --> 00:01:05,500
+but now there's a tremendous
+increase in the amount
+
+26
+00:01:05,500 --> 00:01:07,496
+of data statistics suggest
+
+27
+00:01:07,496 --> 00:01:11,800
+that by 2020 the accumulated
+volume of data will increase
+
+28
+00:01:11,800 --> 00:01:15,400
+from 4.4 zettabyte stew
+roughly around 44 zettabytes
+
+29
+00:01:15,400 --> 00:01:17,200
+or 44 trillion GBs
+
+30
+00:01:17,200 --> 00:01:20,754
+of data along with such
+enormous amount of data.
+
+31
+00:01:20,754 --> 00:01:23,400
+Now, we have more
+advanced algorithm
+
+32
+00:01:23,400 --> 00:01:25,800
+and high-end computing
+power and storage
+
+33
+00:01:25,800 --> 00:01:29,480
+that can deal with such large
+amount of data as a result.
+
+34
+00:01:29,480 --> 00:01:30,400
+It is expected
+
+35
+00:01:30,400 --> 00:01:33,100
+that 70% of Enterprise
+will Implement ai
+
+36
+00:01:33,100 --> 00:01:34,600
+over the next 12 months
+
+37
+00:01:34,600 --> 00:01:39,700
+which is up from 40 percent
+in 2016 and 51 percent in 2017.
+
+38
+00:01:39,700 --> 00:01:43,200
+Just for your understanding
+what does AI well,
+
+39
+00:01:43,200 --> 00:01:44,900
+it's nothing but a technique
+
+40
+00:01:44,900 --> 00:01:48,200
+that enables the machine to act
+like humans by replicating
+
+41
+00:01:48,200 --> 00:01:51,700
+the behavior and nature
+with AI it is possible
+
+42
+00:01:51,700 --> 00:01:54,100
+for machine to learn
+from the experience.
+
+43
+00:01:54,100 --> 00:01:56,500
+The machines are just
+the responses based
+
+44
+00:01:56,500 --> 00:01:59,600
+on new input there
+by performing human-like tasks.
+
+45
+00:01:59,700 --> 00:02:02,490
+Artificial intelligence can
+be trained to accomplish
+
+46
+00:02:02,490 --> 00:02:05,300
+specific tasks by processing
+large amount of data
+
+47
+00:02:05,300 --> 00:02:07,163
+and recognizing pattern in them.
+
+48
+00:02:07,163 --> 00:02:08,104
+You can consider
+
+49
+00:02:08,104 --> 00:02:11,500
+that building an artificial
+intelligence is like Building
+
+50
+00:02:11,500 --> 00:02:14,784
+a Church, the first church
+took generations to finish.
+
+51
+00:02:14,784 --> 00:02:16,138
+So most of the workers
+
+52
+00:02:16,138 --> 00:02:19,736
+were working in it never saw
+the final outcome those working
+
+53
+00:02:19,736 --> 00:02:22,442
+on it took pride
+in their craft building bricks
+
+54
+00:02:22,442 --> 00:02:23,500
+and chiseling stone
+
+55
+00:02:23,500 --> 00:02:26,100
+that was going to be placed
+into the great structure.
+
+56
+00:02:26,100 --> 00:02:27,600
+So as AI researchers,
+
+57
+00:02:27,600 --> 00:02:31,000
+we should think of ourselves
+as humble brick makers
+
+58
+00:02:31,000 --> 00:02:32,400
+whose job is to study
+
+59
+00:02:32,400 --> 00:02:35,600
+how to build components
+example Parts is planners
+
+60
+00:02:35,600 --> 00:02:37,776
+or learning algorithm
+or accept anything
+
+61
+00:02:37,776 --> 00:02:40,600
+that someday someone
+and somewhere will integrate
+
+62
+00:02:40,600 --> 00:02:43,600
+into the intelligent systems
+some of the examples
+
+63
+00:02:43,600 --> 00:02:46,400
+of artificial intelligence
+from our day-to-day life
+
+64
+00:02:46,400 --> 00:02:50,600
+our Apple series just playing
+computer Tesla self-driving car
+
+65
+00:02:50,600 --> 00:02:53,800
+and many more these examples
+are based on deep learning
+
+66
+00:02:53,800 --> 00:02:55,600
+and natural language processing.
+
+67
+00:02:55,700 --> 00:02:59,700
+Well, this was about what is AI
+and how it gains its hype.
+
+68
+00:02:59,700 --> 00:03:00,900
+So moving on ahead.
+
+69
+00:03:00,900 --> 00:03:04,076
+Let's discuss about machine
+learning and see what it is
+
+70
+00:03:04,076 --> 00:03:05,965
+and white pros of an introduced.
+
+71
+00:03:05,965 --> 00:03:07,500
+Well Machine learning came
+
+72
+00:03:07,500 --> 00:03:10,200
+into existence in the late 80s
+and the early 90s,
+
+73
+00:03:10,200 --> 00:03:12,600
+but what were the issues
+with the people
+
+74
+00:03:12,600 --> 00:03:15,200
+which made the machine learning
+come into existence?
+
+75
+00:03:15,300 --> 00:03:19,017
+Let us discuss them one by one
+in the field of Statistics.
+
+76
+00:03:19,017 --> 00:03:19,944
+The problem was
+
+77
+00:03:19,944 --> 00:03:22,600
+how to efficiently train
+large complex model
+
+78
+00:03:22,600 --> 00:03:25,700
+in the field of computer science
+and artificial intelligence.
+
+79
+00:03:25,900 --> 00:03:29,600
+The problem was how to train
+more robust version of AI system
+
+80
+00:03:29,600 --> 00:03:30,600
+while in the case
+
+81
+00:03:30,600 --> 00:03:33,355
+of Neuroscience problem
+faced by the researchers was
+
+82
+00:03:33,355 --> 00:03:35,650
+how to design operation
+model of the brain.
+
+83
+00:03:35,650 --> 00:03:37,473
+So these are some of the issues
+
+84
+00:03:37,473 --> 00:03:40,440
+which had the largest influence
+and led to the existence
+
+85
+00:03:40,440 --> 00:03:41,718
+of the machine learning.
+
+86
+00:03:41,718 --> 00:03:44,189
+Now this machine learning
+shifted its focus
+
+87
+00:03:44,189 --> 00:03:45,700
+from the symbolic approaches.
+
+88
+00:03:45,700 --> 00:03:47,817
+It had inherited
+from the AI and move
+
+89
+00:03:47,817 --> 00:03:49,423
+towards the methods and model.
+
+90
+00:03:49,423 --> 00:03:52,600
+It had borrowed from statistics
+and probability Theory.
+
+91
+00:03:52,600 --> 00:03:54,400
+So let's proceed and see
+
+92
+00:03:54,400 --> 00:03:56,000
+what exactly is
+machine learning.
+
+93
+00:03:56,200 --> 00:03:59,034
+Well Machine learning
+is a subset of AI
+
+94
+00:03:59,034 --> 00:04:00,900
+which The computer to act
+
+95
+00:04:00,900 --> 00:04:04,300
+and make data-driven decisions
+to carry out a certain task.
+
+96
+00:04:04,300 --> 00:04:07,300
+These programs are algorithms
+are designed in a way
+
+97
+00:04:07,300 --> 00:04:09,300
+that they can learn
+and improve over time
+
+98
+00:04:09,300 --> 00:04:11,000
+when exposed to new data.
+
+99
+00:04:11,000 --> 00:04:13,200
+Let's see an example
+of machine learning.
+
+100
+00:04:13,200 --> 00:04:15,000
+Let's say you want
+to create a system
+
+101
+00:04:15,000 --> 00:04:18,363
+which tells the expected weight
+of a person based on its side.
+
+102
+00:04:18,363 --> 00:04:20,899
+The first thing you do
+is you collect the data.
+
+103
+00:04:20,899 --> 00:04:22,056
+Let's see there is
+
+104
+00:04:22,057 --> 00:04:24,457
+how your data looks
+like now each point
+
+105
+00:04:24,457 --> 00:04:27,300
+on the graph represent
+one data point to start
+
+106
+00:04:27,300 --> 00:04:28,947
+with we can draw a simple line
+
+107
+00:04:28,947 --> 00:04:31,200
+to predict the weight
+based on the height.
+
+108
+00:04:31,200 --> 00:04:33,200
+For example, a simple line
+
+109
+00:04:33,200 --> 00:04:36,800
+W equal x minus hundred
+where W is waiting kgs
+
+110
+00:04:36,800 --> 00:04:37,700
+and edges hide
+
+111
+00:04:37,700 --> 00:04:40,900
+and centimeter this line can
+help us to make the prediction.
+
+112
+00:04:40,900 --> 00:04:43,092
+Our main goal is
+to reduce the difference
+
+113
+00:04:43,092 --> 00:04:45,764
+between the estimated value
+and the actual value.
+
+114
+00:04:45,764 --> 00:04:49,000
+So in order to achieve it we
+try to draw a straight line
+
+115
+00:04:49,000 --> 00:04:51,596
+that fits through all
+these different points
+
+116
+00:04:51,596 --> 00:04:53,032
+and minimize the error.
+
+117
+00:04:53,032 --> 00:04:55,443
+So our main goal is
+to minimize the error
+
+118
+00:04:55,443 --> 00:04:58,700
+and make them as small as
+possible decreasing the error
+
+119
+00:04:58,700 --> 00:05:00,900
+or the difference
+between In the actual value
+
+120
+00:05:00,900 --> 00:05:03,100
+and estimated value
+increases the performance
+
+121
+00:05:03,100 --> 00:05:05,800
+of the model further
+on the more data points.
+
+122
+00:05:05,800 --> 00:05:06,995
+We collect the better.
+
+123
+00:05:06,995 --> 00:05:08,300
+Our model will become we
+
+124
+00:05:08,300 --> 00:05:10,700
+can also improve our model
+by adding more variables
+
+125
+00:05:10,700 --> 00:05:13,593
+and creating different
+production lines for them.
+
+126
+00:05:13,593 --> 00:05:15,100
+Once the line is created.
+
+127
+00:05:15,100 --> 00:05:17,400
+So from the next time
+if we feed a new data,
+
+128
+00:05:17,400 --> 00:05:19,570
+for example height
+of a person to the model,
+
+129
+00:05:19,570 --> 00:05:22,600
+it would easily predict the data
+for you and it will tell you
+
+130
+00:05:22,600 --> 00:05:24,300
+what has predicted
+weight could be.
+
+131
+00:05:24,300 --> 00:05:26,100
+I hope you got
+a clear understanding
+
+132
+00:05:26,100 --> 00:05:27,200
+of machine learning.
+
+133
+00:05:27,200 --> 00:05:28,300
+So moving on ahead.
+
+134
+00:05:28,300 --> 00:05:30,070
+Let's learn about deep learning.
+
+135
+00:05:30,070 --> 00:05:31,600
+Now what is deep learning?
+
+136
+00:05:31,600 --> 00:05:34,999
+You can consider deep learning
+model as a rocket engine
+
+137
+00:05:34,999 --> 00:05:37,298
+and its fuel is
+its huge amount of data
+
+138
+00:05:37,298 --> 00:05:39,903
+that we feed to
+these algorithms the concept
+
+139
+00:05:39,903 --> 00:05:41,600
+of deep learning is not new,
+
+140
+00:05:41,600 --> 00:05:43,200
+but recently it's hype as
+
+141
+00:05:43,200 --> 00:05:45,600
+increase and deep learning
+is getting more attention.
+
+142
+00:05:45,600 --> 00:05:48,282
+This field is a particular kind
+of machine learning
+
+143
+00:05:48,282 --> 00:05:49,400
+that is inspired by
+
+144
+00:05:49,400 --> 00:05:51,900
+the functionality of
+our brain cells called neurons
+
+145
+00:05:51,900 --> 00:05:55,329
+which led to the concept
+of artificial neural network.
+
+146
+00:05:55,329 --> 00:05:56,300
+It simply takes
+
+147
+00:05:56,300 --> 00:05:59,172
+the data connection between all
+the artificial neurons
+
+148
+00:05:59,172 --> 00:06:02,357
+and adjust them according
+to the data pattern more neurons
+
+149
+00:06:02,357 --> 00:06:03,600
+are added at the size
+
+150
+00:06:03,600 --> 00:06:06,291
+of the data is large
+it automatically features
+
+151
+00:06:06,291 --> 00:06:08,807
+learning at multiple
+levels of abstraction.
+
+152
+00:06:08,807 --> 00:06:10,315
+Thereby allowing a system
+
+153
+00:06:10,315 --> 00:06:13,331
+to learn complex function
+mapping without depending
+
+154
+00:06:13,331 --> 00:06:14,900
+on any specific algorithm.
+
+155
+00:06:14,900 --> 00:06:15,493
+You know,
+
+156
+00:06:15,493 --> 00:06:18,000
+what no one actually
+knows what happens
+
+157
+00:06:18,000 --> 00:06:20,848
+inside a neural network
+and why it works so well,
+
+158
+00:06:20,848 --> 00:06:23,400
+so currently you can call
+it as a black box.
+
+159
+00:06:23,500 --> 00:06:26,000
+Let us discuss some
+of the example of deep learning
+
+160
+00:06:26,000 --> 00:06:27,900
+and understand it
+in a better way.
+
+161
+00:06:27,900 --> 00:06:30,795
+Let me start with a simple
+example and explain you
+
+162
+00:06:30,795 --> 00:06:33,100
+how things happen
+at a conceptual level.
+
+163
+00:06:33,100 --> 00:06:34,823
+Let us try and understand
+
+164
+00:06:34,823 --> 00:06:37,743
+how you recognize a square
+from other shapes.
+
+165
+00:06:37,743 --> 00:06:40,000
+The first thing
+you do is you check
+
+166
+00:06:40,000 --> 00:06:42,894
+whether there are four lines
+associated with a figure
+
+167
+00:06:42,894 --> 00:06:44,700
+or not simple concept, right?
+
+168
+00:06:44,700 --> 00:06:46,273
+If yes, we further check
+
+169
+00:06:46,273 --> 00:06:49,507
+if they are connected
+and closed again a few years.
+
+170
+00:06:49,507 --> 00:06:50,565
+We finally check
+
+171
+00:06:50,565 --> 00:06:54,200
+whether it is perpendicular
+and all its sides are equal,
+
+172
+00:06:54,200 --> 00:06:55,800
+correct, if Fulfills.
+
+173
+00:06:55,800 --> 00:06:57,300
+Yes, it is a square.
+
+174
+00:06:57,300 --> 00:07:01,000
+Well, it is nothing but
+a nested hierarchy of Concepts
+
+175
+00:07:01,000 --> 00:07:03,600
+what we did here we
+took a complex task
+
+176
+00:07:03,600 --> 00:07:04,996
+of identifying a square
+
+177
+00:07:04,996 --> 00:07:07,703
+and this case and broken
+into simpler tasks.
+
+178
+00:07:07,703 --> 00:07:10,517
+Now this deep learning
+also does the same thing
+
+179
+00:07:10,517 --> 00:07:11,845
+but at a larger scale,
+
+180
+00:07:11,845 --> 00:07:14,742
+let's take an example
+of machine which recognizes
+
+181
+00:07:14,742 --> 00:07:17,700
+the animal the task
+of the machine is to recognize
+
+182
+00:07:17,700 --> 00:07:19,900
+whether the given image is
+of a cat or a dog.
+
+183
+00:07:20,100 --> 00:07:24,000
+What if we were asked to resolve
+the same issue using the concept
+
+184
+00:07:24,000 --> 00:07:26,470
+of machine learning
+what we would do first.
+
+185
+00:07:26,470 --> 00:07:28,400
+We would Define
+the features such as
+
+186
+00:07:28,400 --> 00:07:31,500
+check whether the animal has
+whiskers are not a check
+
+187
+00:07:31,500 --> 00:07:33,000
+if the animal has pointed ears
+
+188
+00:07:33,000 --> 00:07:36,500
+or not or whether its tail
+is straight or curved in short.
+
+189
+00:07:36,500 --> 00:07:38,924
+We will Define
+the facial features and let
+
+190
+00:07:38,924 --> 00:07:42,000
+the system identify which
+features are more important
+
+191
+00:07:42,000 --> 00:07:44,265
+in classifying a
+particular animal now
+
+192
+00:07:44,265 --> 00:07:48,000
+when it comes to deep learning
+it takes this to one step ahead
+
+193
+00:07:48,000 --> 00:07:50,823
+deep learning automatically
+finds out the feature
+
+194
+00:07:50,823 --> 00:07:53,700
+which are most important
+for classification compare
+
+195
+00:07:53,700 --> 00:07:54,900
+into machine learning
+
+196
+00:07:54,900 --> 00:07:58,300
+where we Had to manually give
+out that features by now.
+
+197
+00:07:58,300 --> 00:07:59,675
+I guess you have understood
+
+198
+00:07:59,675 --> 00:08:02,100
+that AI is a bigger picture
+and machine learning
+
+199
+00:08:02,100 --> 00:08:03,833
+and deep learning or it's apart.
+
+200
+00:08:03,833 --> 00:08:04,700
+So let's move on
+
+201
+00:08:04,700 --> 00:08:06,850
+and focus our discussion
+on machine learning
+
+202
+00:08:06,850 --> 00:08:09,951
+and deep learning the easiest
+way to understand the difference
+
+203
+00:08:09,951 --> 00:08:12,800
+between the machine learning
+and deep learning is to know
+
+204
+00:08:12,800 --> 00:08:16,100
+that deep learning is machine
+learning more specifically.
+
+205
+00:08:16,100 --> 00:08:18,500
+It is the next evolution
+of machine learning.
+
+206
+00:08:18,500 --> 00:08:20,200
+Let's take few
+important parameter
+
+207
+00:08:20,200 --> 00:08:22,600
+and compare machine learning
+with deep learning.
+
+208
+00:08:22,600 --> 00:08:24,700
+So starting with
+data dependencies,
+
+209
+00:08:24,700 --> 00:08:27,641
+the most important difference
+between deep learning
+
+210
+00:08:27,641 --> 00:08:30,485
+and machine learning is
+its performance as the volume
+
+211
+00:08:30,485 --> 00:08:32,969
+of the data gets increased
+from the below graph.
+
+212
+00:08:32,969 --> 00:08:35,217
+You can see that
+when the size of the data
+
+213
+00:08:35,217 --> 00:08:38,399
+is small deep learning algorithm
+doesn't perform that well,
+
+214
+00:08:38,400 --> 00:08:39,900
+but why well,
+
+215
+00:08:39,900 --> 00:08:42,900
+this is because deep
+learning algorithm needs
+
+216
+00:08:42,900 --> 00:08:45,300
+a large amount of data
+to understand it perfectly
+
+217
+00:08:45,300 --> 00:08:47,908
+on the other hand
+the machine learning
+
+218
+00:08:47,908 --> 00:08:51,574
+algorithm can easily work
+with smaller data set fine.
+
+219
+00:08:51,574 --> 00:08:55,100
+Next comes the hardware
+dependencies deep learning.
+
+220
+00:08:55,200 --> 00:08:57,630
+Are heavily dependent
+on high-end machines
+
+221
+00:08:57,630 --> 00:08:58,649
+while the machine
+
+222
+00:08:58,649 --> 00:09:02,000
+learning algorithm can work
+on low and machines as well.
+
+223
+00:09:02,000 --> 00:09:03,886
+This is because the requirement
+
+224
+00:09:03,886 --> 00:09:06,274
+of deep learning
+algorithm include gpus
+
+225
+00:09:06,274 --> 00:09:07,864
+which is an integral part
+
+226
+00:09:07,864 --> 00:09:11,194
+of its working the Deep learning
+algorithm requires gpus
+
+227
+00:09:11,194 --> 00:09:11,800
+as they do
+
+228
+00:09:11,800 --> 00:09:14,300
+a large amount of matrix
+multiplication operations,
+
+229
+00:09:14,300 --> 00:09:16,100
+and these operations
+
+230
+00:09:16,100 --> 00:09:19,400
+can only be efficiently
+optimized using a GPU
+
+231
+00:09:19,400 --> 00:09:21,300
+as it is built for this purpose.
+
+232
+00:09:21,300 --> 00:09:23,100
+Only our third parameter
+
+233
+00:09:23,100 --> 00:09:27,600
+will be feature engineering well
+feature engineering is a process
+
+234
+00:09:27,600 --> 00:09:30,452
+of putting the domain knowledge
+to reduce the complexity
+
+235
+00:09:30,452 --> 00:09:31,159
+of the data
+
+236
+00:09:31,159 --> 00:09:34,600
+and make patterns more visible
+to learning algorithms.
+
+237
+00:09:34,600 --> 00:09:38,152
+This process is difficult
+and expensive in terms of time
+
+238
+00:09:38,152 --> 00:09:40,800
+and expertise in case
+of machine learning.
+
+239
+00:09:40,800 --> 00:09:44,200
+Most of the features are needed
+to be identified by an expert
+
+240
+00:09:44,200 --> 00:09:46,200
+and then hand coded
+as per the domain
+
+241
+00:09:46,200 --> 00:09:47,100
+and the data type.
+
+242
+00:09:47,100 --> 00:09:49,100
+For example, the features
+
+243
+00:09:49,100 --> 00:09:52,934
+can be a pixel value shapes
+texture position orientation
+
+244
+00:09:52,934 --> 00:09:56,700
+or anything fine the Performance
+of most of the machine
+
+245
+00:09:56,700 --> 00:09:58,211
+learning algorithm depends
+
+246
+00:09:58,211 --> 00:10:01,000
+on how accurately
+the features are identified
+
+247
+00:10:01,000 --> 00:10:01,780
+and extracted
+
+248
+00:10:01,780 --> 00:10:04,300
+whereas in case
+of deep learning algorithms
+
+249
+00:10:04,300 --> 00:10:06,831
+it try to learn high
+level features from the data.
+
+250
+00:10:06,831 --> 00:10:09,400
+This is a very distinctive part
+of deep learning
+
+251
+00:10:09,400 --> 00:10:10,811
+which makes it way ahead
+
+252
+00:10:10,811 --> 00:10:14,422
+of traditional machine learning
+deep learning reduces the task
+
+253
+00:10:14,422 --> 00:10:17,498
+of developing new feature
+extractor for every problem
+
+254
+00:10:17,498 --> 00:10:18,813
+like in the case of CN
+
+255
+00:10:18,813 --> 00:10:22,048
+n algorithm it first try
+to learn the low-level features
+
+256
+00:10:22,048 --> 00:10:24,108
+of the image such as
+edges and lines
+
+257
+00:10:24,108 --> 00:10:27,000
+and then it proceeds
+to the parts of faces of people
+
+258
+00:10:27,000 --> 00:10:29,400
+and then finally to
+the high-level representation
+
+259
+00:10:29,400 --> 00:10:30,200
+of the face.
+
+260
+00:10:30,200 --> 00:10:32,700
+I hope that things
+are getting clearer to you.
+
+261
+00:10:32,700 --> 00:10:35,582
+So let's move on ahead and see
+the next parameter.
+
+262
+00:10:35,582 --> 00:10:38,460
+So our next parameter is
+problem solving approach
+
+263
+00:10:38,460 --> 00:10:39,600
+when we are solving
+
+264
+00:10:39,600 --> 00:10:42,411
+a problem using traditional
+machine learning algorithm.
+
+265
+00:10:42,411 --> 00:10:44,000
+It is generally recommended
+
+266
+00:10:44,000 --> 00:10:46,176
+that we first break
+down the problem
+
+267
+00:10:46,176 --> 00:10:49,100
+into different sub parts
+solve them individually
+
+268
+00:10:49,100 --> 00:10:52,337
+and then finally combine them
+to get the desired result.
+
+269
+00:10:52,337 --> 00:10:55,690
+This is how the machine learning
+algorithm handles the L'm
+
+270
+00:10:55,690 --> 00:10:58,100
+on the other hand
+the Deep learning algorithm
+
+271
+00:10:58,100 --> 00:10:59,800
+solves the problem
+from end to end.
+
+272
+00:10:59,800 --> 00:11:03,200
+Let's take an example
+to understand this suppose.
+
+273
+00:11:03,200 --> 00:11:05,400
+You have a task
+of multiple object detection.
+
+274
+00:11:05,400 --> 00:11:06,900
+And your task is to identify.
+
+275
+00:11:06,900 --> 00:11:09,900
+What is the object and where it
+is present in the image.
+
+276
+00:11:09,900 --> 00:11:11,500
+So, let's see and compare.
+
+277
+00:11:11,500 --> 00:11:12,600
+How will you tackle
+
+278
+00:11:12,600 --> 00:11:15,035
+this issue using the concept
+of machine learning
+
+279
+00:11:15,035 --> 00:11:17,800
+and deep learning starting
+with machine learning
+
+280
+00:11:17,800 --> 00:11:20,143
+in a typical machine
+learning approach.
+
+281
+00:11:20,143 --> 00:11:21,512
+You would first divide
+
+282
+00:11:21,512 --> 00:11:24,556
+the problem into two step
+first object detection
+
+283
+00:11:24,556 --> 00:11:26,500
+and then object recognization.
+
+284
+00:11:26,500 --> 00:11:27,400
+First of all,
+
+285
+00:11:27,400 --> 00:11:30,521
+you would use a bounding
+box detection algorithm
+
+286
+00:11:30,521 --> 00:11:33,798
+like grab cut for example
+to scan through the image
+
+287
+00:11:33,798 --> 00:11:36,100
+and find out all
+the possible objects.
+
+288
+00:11:36,100 --> 00:11:37,429
+Now, once the objects
+
+289
+00:11:37,429 --> 00:11:41,100
+are recognized you would use
+object recognization algorithm
+
+290
+00:11:41,100 --> 00:11:44,703
+like svm with hog
+to recognize relevant objects.
+
+291
+00:11:44,703 --> 00:11:45,700
+Now, finally,
+
+292
+00:11:45,700 --> 00:11:48,600
+when you combine the result
+you would be able to identify.
+
+293
+00:11:48,600 --> 00:11:49,704
+What is the object
+
+294
+00:11:49,704 --> 00:11:52,956
+and where it is present
+in the image on the other hand
+
+295
+00:11:52,956 --> 00:11:56,700
+in deep learning approach you
+would do Process from end to end
+
+296
+00:11:56,700 --> 00:11:58,300
+for example in a euro net
+
+297
+00:11:58,300 --> 00:12:00,400
+which is a type
+of deep learning algorithm.
+
+298
+00:12:00,400 --> 00:12:03,100
+You would pass an image
+and it would give out
+
+299
+00:12:03,100 --> 00:12:05,500
+the location along
+with the name of the object.
+
+300
+00:12:05,600 --> 00:12:06,600
+Now, let's move
+
+301
+00:12:06,600 --> 00:12:10,281
+on to our fifth comparison
+parameter its execution time.
+
+302
+00:12:10,281 --> 00:12:13,628
+Usually a deep learning
+algorithm takes a long time
+
+303
+00:12:13,628 --> 00:12:14,700
+to train this is
+
+304
+00:12:14,700 --> 00:12:15,600
+because there's so
+
+305
+00:12:15,600 --> 00:12:17,818
+many parameter in
+a deep learning algorithm
+
+306
+00:12:17,818 --> 00:12:20,660
+that makes the training longer
+than usual the training
+
+307
+00:12:20,660 --> 00:12:23,177
+might even last for two weeks
+or more than that.
+
+308
+00:12:23,177 --> 00:12:25,700
+If you are training
+completely from the scratch,
+
+309
+00:12:25,700 --> 00:12:29,000
+whereas in the case of machine
+learning it relatively takes
+
+310
+00:12:29,000 --> 00:12:32,793
+much less time to train ranging
+from a few weeks to few Arts.
+
+311
+00:12:32,793 --> 00:12:35,555
+Now, the execution time
+is completely reversed
+
+312
+00:12:35,555 --> 00:12:38,600
+when it comes to the testing
+of data during testing
+
+313
+00:12:38,600 --> 00:12:41,800
+the Deep learning algorithm
+takes much less time to run.
+
+314
+00:12:41,800 --> 00:12:44,100
+Whereas if you compare it
+with a KNN algorithm,
+
+315
+00:12:44,100 --> 00:12:45,500
+which is a type of machine
+
+316
+00:12:45,500 --> 00:12:48,400
+learning algorithm the test
+time increases as the size
+
+317
+00:12:48,400 --> 00:12:50,000
+of the data increase last
+
+318
+00:12:50,000 --> 00:12:52,600
+but not the least we
+have interpretability as
+
+319
+00:12:52,600 --> 00:12:54,700
+a factor for comparison
+of machine learning
+
+320
+00:12:54,700 --> 00:12:57,700
+and Running this fact
+is the main reason why
+
+321
+00:12:57,700 --> 00:13:00,400
+deep learning is still
+thought ten times
+
+322
+00:13:00,400 --> 00:13:02,800
+before anyone uses
+it in the industry.
+
+323
+00:13:02,800 --> 00:13:04,868
+Let's take an example suppose.
+
+324
+00:13:04,868 --> 00:13:06,800
+We use deep learning to give
+
+325
+00:13:06,800 --> 00:13:10,000
+automated scoring two essays
+the performance it gives
+
+326
+00:13:10,000 --> 00:13:11,499
+and scoring is quite excellent
+
+327
+00:13:11,499 --> 00:13:13,300
+and is near
+to the human performance,
+
+328
+00:13:13,300 --> 00:13:15,246
+but there's an issue with it.
+
+329
+00:13:15,246 --> 00:13:18,148
+It does not reveal white
+has given that score
+
+330
+00:13:18,148 --> 00:13:19,600
+indeed mathematically.
+
+331
+00:13:19,600 --> 00:13:21,262
+It is possible to find out
+
+332
+00:13:21,262 --> 00:13:24,581
+that which node of a deep
+neural network were activated
+
+333
+00:13:24,581 --> 00:13:25,600
+but we don't know
+
+334
+00:13:25,600 --> 00:13:27,700
+what the neurons
+are supposed to model
+
+335
+00:13:27,700 --> 00:13:30,300
+and what these layers of neuron
+we're doing collectively.
+
+336
+00:13:30,300 --> 00:13:31,803
+So if able to interpret
+
+337
+00:13:31,803 --> 00:13:35,400
+the result on the other
+hand machine learning algorithm,
+
+338
+00:13:35,400 --> 00:13:39,000
+like decision tree gives us
+a crisp rule for void chose
+
+339
+00:13:39,000 --> 00:13:39,900
+and watered chose.
+
+340
+00:13:39,900 --> 00:13:43,028
+So it is particularly easy
+to interpret the reasoning
+
+341
+00:13:43,028 --> 00:13:45,910
+behind therefore the algorithms
+like decision tree
+
+342
+00:13:45,910 --> 00:13:47,152
+and linear or logistic
+
+343
+00:13:47,152 --> 00:13:50,800
+regression are primarily used in
+industry for interpretability.
+
+344
+00:13:51,100 --> 00:13:52,755
+Before we end this session.
+
+345
+00:13:52,755 --> 00:13:54,174
+Let me summarize things
+
+346
+00:13:54,174 --> 00:13:57,777
+for you machine learning uses
+algorithm to parse the data
+
+347
+00:13:57,777 --> 00:13:59,000
+learn from the data
+
+348
+00:13:59,000 --> 00:14:03,100
+and make informed decision based
+on what it has learned fine.
+
+349
+00:14:03,100 --> 00:14:05,782
+Now this deep learning
+structures algorithms
+
+350
+00:14:05,782 --> 00:14:08,678
+in layers to create
+artificial neural network
+
+351
+00:14:08,678 --> 00:14:09,600
+that can learn
+
+352
+00:14:09,600 --> 00:14:13,100
+and make Intelligent Decisions
+on their own finally
+
+353
+00:14:13,100 --> 00:14:15,600
+deep learning is a subfield
+of machine learning
+
+354
+00:14:15,600 --> 00:14:18,054
+while both fall
+under the broad category
+
+355
+00:14:18,054 --> 00:14:21,200
+of artificial intelligence
+deep learning is usually
+
+356
+00:14:21,200 --> 00:14:23,102
+what's behind
+the most human-like
+
+357
+00:14:23,102 --> 00:14:24,514
+artificial intelligence.
+
+358
+00:14:24,514 --> 00:14:25,400
+Well, this was all
+
+359
+00:14:25,400 --> 00:14:28,000
+for today's discussion
+in case you have any doubt
+
+360
+00:14:28,000 --> 00:14:30,500
+feel free to add your query
+to the comment section.
+
+361
+00:14:30,500 --> 00:14:31,149
+Thank you.
+
+362
+00:14:31,149 --> 00:14:34,153
+I hope you have enjoyed
+listening to this video.
+
+363
+00:14:34,153 --> 00:14:36,226
+Please be kind enough to like it
+
+364
+00:14:36,226 --> 00:14:39,400
+and you can comment any
+of your doubts and queries
+
+365
+00:14:39,400 --> 00:14:41,100
+and we will reply them
+
+366
+00:14:41,100 --> 00:14:44,875
+at the earliest do look out
+for more videos in our playlist
+
+367
+00:14:44,875 --> 00:14:47,999
+And subscribe to Edureka
+channel to learn more.
+
+368
+00:14:48,000 --> 00:14:48,900
+Happy learning.
+
